@@ -15,9 +15,37 @@ author: Carlos Montero
 description: Diferentes equipos sobre la seguridad de la información
 ---
 
-## Buenas
+Estos equipos juegan un papel importante en la defensa contra ataques cibernéticos avanzados que amenazan las comunicaciones empresariales, los datos sensibles de los clientes o los secretos comerciales.
 
-You can pick as item to see how to apply in markdown.
+##Qué es un Red Team
+Un equipo rojo está formado por profesionales de la seguridad que actúan como amenazas que intentan superar controles de seguridad cibernética. Estos equipos suelen estar formados por hackers éticos independientes que evalúan la seguridad del sistema de manera objetiva.
+
+Utilizan todas las técnicas disponibles para encontrar puntos débiles en personas, procesos y tecnología para obtener acceso no autorizado a los activos. Como resultado de estos ataques simulados, los equipos rojos hacen recomendaciones y planes sobre cómo fortalecer la postura de seguridad de una organización.
+
+##Cómo funciona un Red Team
+Te sorprendería saber que los equipos rojos pasan más tiempo planeando un ataque que realizándolos. En efecto, los equipos rojos despliegan una serie de métodos para obtener acceso a una red. Por ejemplo, los ataques de ingeniería social se basan en el reconocimiento y la investigación para realizar campañas de spear phishing dirigidas.
+
+Asimismo, antes de realizar una prueba de penetración, se utilizan rastreadores de paquetes y analizadores de protocolos para explorar la red y recopilar la mayor cantidad de información posible sobre el sistema.
+
+La información típica recogida durante esta fase incluye:
+
+   * Descubrir los sistemas operativos en uso (Windows, MacOS o Linux).
+   * Identificar la marca y el modelo del equipo de red (servidores, cortafuegos, conmutadores, enrutadores, puntos de acceso, ordenadores, etc.).
+   * Comprensión de los controles físicos (puertas, cerraduras, cámaras, personal de seguridad).
+   * Aprender qué puertos están abiertos/cerrados en un cortafuegos para permitir/bloquear un tráfico específico.
+   * Crear un mapa de la red para determinar qué servicios están ejecutando los hosts y dónde se está enviando el tráfico.
+
+Una vez que el equipo rojo tiene una idea más completa del sistema, desarrollan un plan de acción diseñado para atacar las vulnerabilidades específicas de la información que recogieron anteriormente.
+
+Por ejemplo, un miembro del equipo rojo puede saber que un servidor está ejecutando Microsoft Windows Server 2016 R2 (un sistema operativo de servidor) y que las políticas de dominio por defecto podrían estar todavía en uso.
+
+Así, Microsoft "envía" su software en su estado predeterminado dejando a los administradores de red la tarea de actualizar las políticas, lo que Microsoft recomienda hacer lo antes posible para reforzar la seguridad de la red. Si todavía está en dicho estado, el atacante puede comprometer las medidas de seguridad en uso.
+
+Una vez que se identifican las vulnerabilidades, el equipo rojo las intenta explotar para obtener acceso a su red. Una vez que el atacante se encuentra en su sistema, lo normal es que use técnicas de escalada de privilegios con las que intenta robar las credenciales de un administrador que tiene acceso a los niveles más altos de información crítica.
+
+
+
+
 
 #### Especial Elements
 - [Evidence](#evidence)
