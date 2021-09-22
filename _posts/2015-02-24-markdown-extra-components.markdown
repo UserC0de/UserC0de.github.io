@@ -5,15 +5,17 @@ date: 2021-09-22 22:26
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- Hacking Ethical
+- Teams
+- Blue
+- Red
+- Cybersecurity
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: Carlos Montero
+description: Diferentes equipos sobre la seguridad de la información
 ---
 
-## Summary:
+## Buenas
 
 You can pick as item to see how to apply in markdown.
 
