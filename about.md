@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
-   <img class="selfie" alt="{{ site.external-image }}" src="ojo.jpg" />
+   <img class="selfie" alt="{{ site.name }}" src="https://cdn3.iconfinder.com/data/icons/developers-iconset/90/Developers_Colorai-04-256.png*" />
 <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
