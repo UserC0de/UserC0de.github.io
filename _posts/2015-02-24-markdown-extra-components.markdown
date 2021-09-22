@@ -1,7 +1,7 @@
 ---
-title: "Markdown Extra Components"
+title: "Red team vs Blue team"
 layout: post
-date: 2016-02-24 22:48
+date: 2021-09-22 22:26
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
