@@ -17,12 +17,12 @@ description: Diferentes equipos sobre la seguridad de la información
 
 Estos equipos juegan un papel importante en la defensa contra ataques cibernéticos avanzados que amenazan las comunicaciones empresariales, los datos sensibles de los clientes o los secretos comerciales.
 
-##Qué es un Red Team
+## Qué es un Red Team
 Un equipo rojo está formado por profesionales de la seguridad que actúan como amenazas que intentan superar controles de seguridad cibernética. Estos equipos suelen estar formados por hackers éticos independientes que evalúan la seguridad del sistema de manera objetiva.
 
 Utilizan todas las técnicas disponibles para encontrar puntos débiles en personas, procesos y tecnología para obtener acceso no autorizado a los activos. Como resultado de estos ataques simulados, los equipos rojos hacen recomendaciones y planes sobre cómo fortalecer la postura de seguridad de una organización.
 
-##Cómo funciona un Red Team
+## Cómo funciona un Red Team
 Te sorprendería saber que los equipos rojos pasan más tiempo planeando un ataque que realizándolos. En efecto, los equipos rojos despliegan una serie de métodos para obtener acceso a una red. Por ejemplo, los ataques de ingeniería social se basan en el reconocimiento y la investigación para realizar campañas de spear phishing dirigidas.
 
 Asimismo, antes de realizar una prueba de penetración, se utilizan rastreadores de paquetes y analizadores de protocolos para explorar la red y recopilar la mayor cantidad de información posible sobre el sistema.
