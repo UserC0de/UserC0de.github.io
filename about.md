@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
-   <img class="selfie" alt="{{ site.name }}" src="blob:https://web.whatsapp.com/70f98193-e88f-43e4-accc-f22a5b4db0bd" />
+   <img class="selfie" alt="{{ site.name }}" src="ojo.jpg" />
 <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
