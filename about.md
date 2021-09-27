@@ -4,19 +4,10 @@ layout: page
 ---
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
    <img class="selfie" src="https://cdn3.iconfinder.com/data/icons/developers-iconset/90/Developers_Colorai-04-256.png" />
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p> 👋 ¡Hola! Soy Carlos, un estudiante de Sevilla. Tengo 18 años y me encanta el campo de la ciberseguridad.
+	Me considero una persona proactiva y eficiente que disfruta aprendiendo y siempre está en constante mejora.
+	Cuento con una alta capacidad para aprender de manera autónoma pues casi todo mi aprendizaje fue gracias a internet, tambien soy una persona comprometida,  	dedicada, responsable y me gusta tanto el trabajo en equipo como en solitario si la situación lo requiere. </p>
+	
 
 <h2>Skills</h2>
 
