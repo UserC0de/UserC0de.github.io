@@ -12,7 +12,9 @@ layout: page
 
 <p>🎯 Mi objetivo es desarrollar mi carrera profesional en el campo de la Ciberseguridad ( Red Team ). Un sueño sería trabajar de *Pentester* para cualquier empresa. :D </p>
 
-<p>En mis ratos libres estoy por tryhackme o hackthebox haciendo máquinas para practicar y reforzar lo aprendido. Al igual también estoy por mi página web propia escribiendo posts nuevos sobre el mundo de la seguridad e información. </p>
+<p>🎮 En mis ratos libres estoy por tryhackme o hackthebox haciendo máquinas para practicar y reforzar lo aprendido. Al igual también estoy por mi página web propia escribiendo posts nuevos sobre el mundo de la seguridad e información. </p>
+
+<p>Y por ultimo quiero comentar que soy una persona que le gusta tambíen hacer deporte, sobre todo kárate 🥋, ciclísmo 🚴 y balocento 🏀.
 
 	
 
