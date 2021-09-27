@@ -18,5 +18,23 @@ que es lo que nos permitiría emular un dispositivo HID y así crear nuestro pro
 Para conseguir esta función adicional tendremos que flashear un nuevo bootloader llamado HoodLoader2, creado por NicoHood. 
 El código fuente está disponible en su propio Github.
 Los pasos para flashear este bootloader empiezan por subir el sketch de instalación al Arduino con el Arduino IDE (podemos descargarlo desde aquí), de forma normal y corriente como haríamos con cualquier otro sketch programado por nososotrs mismos. 
-Una vez hecho esto, necesitaremos hacer un pequeño cableado en la placa para así poder flashear el bootloader automáticamente.
-El esquema de cableado que necesitamos para esto es el siguiente:
+Una vez Arduino IDE nos reconocé la placa, podemos probar a subir un sketch de prueba y comprobar si lo ejecuta correctamente:
+## Code
+{% highlight C %}
+#include "HID-Project.h"
+
+void setup() {
+    Keyboard.begin();
+    delay(500);
+
+    Keyboard.press(KEY_LEFT_GUI);
+    Keyboard.press(KEY_R);
+    Keyboard.releaseAll();
+    delay(500);
+    Keyboard.println("cmd.exe");
+    delay(500);
+    Keyboard.println("calc.exe");
+}
+
+void loop() {}
+{% endhighlight %}
