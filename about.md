@@ -15,9 +15,9 @@ layout: page
 <p>🎮 En mis ratos libres estoy por tryhackme o hackthebox haciendo máquinas para practicar y reforzar lo aprendido. Al igual también estoy por mi página web propia escribiendo posts nuevos sobre el mundo de la seguridad e información. </p>
 
 <p> Otra de mis cualidades a destacar es que soy  una persona aficionada al deporte, entre ellos:
-	- Kárate 🥋
-	- Ciclísmo 🚴
-	- Balocesto 🏀
+	* Kárate 🥋
+	* Ciclísmo 🚴
+	* Balocesto 🏀
 	Espero que les halla gustado esta breve presentación sobre mí y que les motive a conocerme un poco más. Un saludo hack y hasta la próxima.</p>
 	
 
