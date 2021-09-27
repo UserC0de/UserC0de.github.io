@@ -7,6 +7,7 @@ layout: page
 <p> 👋 ¡Hola! Soy Carlos, un estudiante de Sevilla. Tengo 18 años y me encanta el campo de la ciberseguridad.
 	Me considero una persona proactiva y eficiente que disfruta aprendiendo y siempre está en constante mejora.
 	Cuento con una alta capacidad para aprender de manera autónoma pues casi todo mi aprendizaje fue gracias a internet, tambien soy una persona comprometida,  	dedicada, responsable y me gusta tanto el trabajo en equipo como en solitario si la situación lo requiere. </p>
+<p>HOla</p>
 	
 
 <h2>Skills</h2>
