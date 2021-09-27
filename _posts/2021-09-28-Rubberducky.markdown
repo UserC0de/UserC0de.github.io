@@ -1,5 +1,5 @@
 ---
-title: ":Como crear un rubberducky con un Arduino UNO"
+title: "Como crear un rubberducky con un Arduino UNO"
 layout: post
 date: 2021-09-28 00:42
 tag: jekyll
