@@ -2,12 +2,12 @@
 title: "Como crear un rubberducky con un Arduino UNO"
 layout: post
 date: 2021-09-28 00:42
-tag: jekyll
+tag: Arduino UNO, RubberDucky, Hardware
 image: 
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+hidden: true
+description: "Como crear un rubberducky con un Arduino UNO"
 category: project
 author: Carlos
 externalLink: false
