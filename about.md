@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
-   <img class="selfie" src="https://cdn3.iconfinder.com/data/icons/developers-iconset/90/Developers_Colorai-04-256.png" alt="Image" style="width:50px;height:50px;" />
+   <img class="selfie" src="https://cdn3.iconfinder.com/data/icons/developers-iconset/90/Developers_Colorai-04-256.png" alt="Image" style="width:250px;height:250px;" />
 <p> 👋 ¡Hola! Soy Carlos, un estudiante de Sevilla. Tengo 18 años y me encanta el campo de la ciberseguridad.
 	Me considero una persona proactiva y eficiente que disfruta aprendiendo y siempre está en constante mejora.
 	Cuento con una alta capacidad para aprender de manera autónoma pues casi todo mi aprendizaje fue gracias a internet, también soy una persona comprometida,  	dedicada, responsable y me gusta tanto el trabajo en equipo como en solitario si la situación lo requiere. </p>
