@@ -2,7 +2,7 @@
 title: "Mullvad VPN - Análisis y opinión"
 layout: post
 date: 2021-09-22 22:26
-image: /assets/images/markdown.jpg
+image: /assets/images/MullvadVPN.jpeg
 headerImage: true
 tag:
 - VPN
