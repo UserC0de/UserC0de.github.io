@@ -19,3 +19,14 @@ description: VPN
 
 ## ¿Qué es MullVadVPN?
 Mullvad es una VPN sueca de código abierto que es una de las pocas redes privadas virtuales que no solicitan ninguna información de identificación personal cuando te registras.
+Simplemente Mullvad te proporcionará un código único que te permite iniciar sesión y obtener una suscripción de pago. El pago también se puede hacer de forma anónima.
+Además de este sistema tan privado, Mullvad también está por delante cuando se trata de protocolos VPN. Los usuarios de Mullvad pueden elegir usar el protocolo WireGuard, por ejemplo. Este protocolo fue desarrollado específicamente para usuarios de Linux y se espera que funcione aún mejor que IPsec y OpenVPN.
+
+## Caracteristicas Mullvad:
+- Precio: 5€/mes
+- Sistemas operativos: Windows, Linux, Mac, Android, IOS
+- Métodos de pago: Criptomonedas, paypal, tarjeta...
+- Política de registros: 0 registros
+- Código fuente: Open Source
+- Protocólos: aOpenVPN, Wireguard
+- Conexiones simultáneas: 5
