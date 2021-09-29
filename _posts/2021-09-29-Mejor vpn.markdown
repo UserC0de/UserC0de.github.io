@@ -3,7 +3,7 @@ title: "Mullvad VPN - Análisis y opinión"
 layout: post
 date: 2021-09-22 22:26
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - VPN
 - Bridge
@@ -17,3 +17,5 @@ description: VPN
 
 ¡ Muy buenas a todos ! Antes de empezar este post, quiero darte las gracias por dedicar parte de tu tiempo a leer o a hecharle un vistazo a este pequeño blog. ¡ Espero que te ayude !
 
+La verdad que desde hace tiempo llevo probando muchas VPN, (NordVPN, ExpressVPN, ProtonVPN, HolaVPN etc...) pero ninguna me a transmitido tanta confianza como Mullavd.
+Este vpn hac jkdad
