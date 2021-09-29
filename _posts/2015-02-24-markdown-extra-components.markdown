@@ -25,7 +25,7 @@ You can pick as item to see how to apply in markdown.
 - [Spoiler](#spoiler)
 
 #### External Elements
-- [Gist](#gist)
+- [¿Qué es Mullvad?](#gist)
 - [Codepen](#codepen)
 - [Slideshare](#slideshare)
 - [Videos](#videos)
