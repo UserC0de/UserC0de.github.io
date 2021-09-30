@@ -28,5 +28,24 @@ Además de este sistema tan privado, Mullvad también está por delante cuando s
 - Métodos de pago: Criptomonedas, paypal, tarjeta...
 - Política de registros: 0 registros
 - Código fuente: Open Source
-- Protocólos: aOpenVPN, Wireguard
+- Protocólos: OpenVPN, Wireguard
 - Conexiones simultáneas: 5
+
+## Seguridad
+Los VPN ofrecen plena seguridad a la hora de navegar por redes públicas. De esta forma, este VPN cuenta con todos los cifrados y certificados de seguridad para garantizar la protección de tus datos más personales en la red.
+
+De esta forma, tus nombres de usuario, contraseñas o datos bancarios estarán lejos de las manos de los piratas informáticos.
+
+## Política de Privacidad
+La política de privacidad de Mullvad es única. Aunque hay muchos proveedores que son muy abiertos acerca de su política actualmente, Mullvad podría ser el único que muestra abiertamente como opera. Esto no es tan extraño, ya que no registran casi nada y lo único que necesitan de ti para configurar una cuenta es un método de pago (que podría pedir información personal adicional para el pago). 
+
+Ni siquiera necesitas una dirección de correo electrónico para usar esta VPN. Si quieres enviarles un correo electrónico, por ejemplo, para ponerte en contacto con el servicio de atención al cliente, puedes usar un correo electrónico cifrado PGP. Resumiendo, no se almacena ni registra absolutamente nada que pueda conectarse de alguna manera a una cuenta en especifico. Es decir, no llevan registro de tráfico, solicitudes DNS, direcciones IP, ni siquiera tiempos de conexión, fechas o ancho de banda utilizado. 
+
+## Servidores
+Este VPN cuenta con una buena red de servidores VPN repartidos por todo el mundo, para que establezcas conexiones seguras desde el punto que elijas. Así, tiene un total de 160 servidores en 24 países distintos, ofreciendo una capacidad de eliminar barreras geográficas en la red muy buena. El único inconveniente es que no tiene servidores en Latam :/
+
+## Velocidad 
+Inicialmente, mis expectativas sobre la velocidad de Mullvad eran bajas, ya que este proveedor de VPN está muy centrado en la seguridad. En cualquier caso, el rendimiento de Mullvad es increíble cuando hablamos de velocidad y, logró sorprenderme. 
+
+### Opinión personal
+Actualmente yo recomiendo usar una vpn (mullvad>) y un buen tor , si es posible navegar en cosas normales con una maquina virtual , y trabajar en la parte normal de el sistema operativo 👨🏻‍💻
