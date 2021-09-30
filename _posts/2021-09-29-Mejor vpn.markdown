@@ -58,4 +58,4 @@ Este VPN cuenta con una buena red de servidores VPN repartidos por todo el mundo
 Inicialmente, mis expectativas sobre la velocidad de Mullvad eran bajas, ya que este proveedor de VPN está muy centrado en la seguridad. En cualquier caso, el rendimiento de Mullvad es increíble cuando hablamos de velocidad y, logró sorprenderme. 
 
 ### Opinión personal
-Actualmente yo recomiendo usar una vpn (mullvad>) y un buen tor , si es posible navegar en cosas normales con una maquina virtual , y trabajar en la parte normal de el sistema operativo 👨🏻‍💻
+Actualmente yo recomiendo usar una vpn (mullvad) y un buen **tor** , si es posible navegar en cosas normales con una maquina virtual , y trabajar en la parte normal de el sistema operativo 👨🏻‍💻
