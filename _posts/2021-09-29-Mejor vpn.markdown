@@ -19,9 +19,8 @@ description: VPN
 
 ## Tabla de contenido
 * [¿Qué es MullVadVPN?](#qué es mullvadvpn)
-* [¿Vale la pena?](#vale-la-pena)
-* [Seguridad](#seguridad)
 * [Caracteristicas Mullvad:](#caracteristicas-mullvad)
+* [Seguridad](#seguridad)
 * [Política de Privacidad](#política-de-privacidad)
 * [Servidores](#servidores)
 * [Velocidad](#velocidad)
