@@ -1,0 +1,20 @@
+---
+title: "Hack-Tool"
+layout: post
+date: 2021-09-22 22:26
+image: /assets/images/MullvadVPN.jpeg
+headerImage: false
+tag:
+- VPN
+- Bridge
+- Privacy
+- Mullvad
+- Cybersecurity
+category: blog
+author: Carlos Montero
+description: Extension Firefox
+---
+Es muy difícil para un bug bounty hunter o un Pentester de aplicaciones web recordar todos los códigos o buscar diferentes payloads (cargas útiles) en Google. 
+Entonces, ¿qué pasa si podemos obtener todas las payloads en un solo lugar para que no tengas que saltar de un sitio a otro?
+
+Para ello, contamos con una gran extensión llamada HackTools que nos proporciona una hoja de trucos que es muy útil en la realización de pruebas de penetración web. Así que, empecemos a explorar todas las funcionalidades que nos proporciona esta extensión para Firefox.
