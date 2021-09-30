@@ -17,6 +17,17 @@ description: VPN
 
 ¡ Muy buenas a todos ! Antes de empezar este post, quiero darte las gracias por dedicar parte de tu tiempo a leer o a hecharle un vistazo a este pequeño blog. ¡ Espero que te ayude !
 
+## Tabla de contenido
+* [¿Qué es MullVadVPN?](#qué es mullvadvpn)
+* [¿Vale la pena?](#vale-la-pena)
+* [Seguridad](#seguridad)
+* [Caracteristicas Mullvad:](#caracteristicas-mullvad)
+* [Política de Privacidad](#política-de-privacidad)
+* [Servidores](#servidores)
+* [Velocidad](#velocidad)
+* [Opinión personal](#opinión-personal)
+
+
 ## ¿Qué es MullVadVPN?
 Mullvad es una VPN sueca de código abierto que es una de las pocas redes privadas virtuales que no solicitan ninguna información de identificación personal cuando te registras.
 Simplemente Mullvad te proporcionará un código único que te permite iniciar sesión y obtener una suscripción de pago. El pago también se puede hacer de forma anónima.
