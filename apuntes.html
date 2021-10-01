@@ -11,9 +11,9 @@ pagination:
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.pagination.enabled %}
 		{% for post in paginator.posts %}
-			{% if post.category == 'apuntes' %}
+			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include apuntes-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
@@ -21,9 +21,9 @@ pagination:
 		{% include pagination.html%}
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'apuntes' %}
+			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include apuntes-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
