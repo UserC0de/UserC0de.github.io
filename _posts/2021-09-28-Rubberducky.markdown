@@ -49,7 +49,7 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - RIGHTARROW --> Tecla derecha.
 - CAPS |CAPSLOCK --> BloqMayús.
 - REPEAT X --> Repetir X número de veces el comando anterior.
-# Se puede incluso utilizar algunas (pero no todas) de dos a tres combinaciones de teclas:
+### Se puede incluso utilizar algunas (pero no todas) de dos a tres combinaciones de teclas:
 - SHIFT ENTER
 - CTRL ALT DEL
 - ALT F4
