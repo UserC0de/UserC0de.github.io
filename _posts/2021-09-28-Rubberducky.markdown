@@ -79,6 +79,6 @@ En el caso de utilizar Arduino hay que convertir este código con alguno de los 
 
 ## Introducción al Arduino UNO
 Arduino no es más que una plataforma de electrónica *open-source*o de código abierto cuyos principios son contar con software y hardware fáciles de usar. Básicamente lo que permite esta herramienta es la generación de infinidad de tipos de microordenadores de una sola placa, que luego pueden tener una amplia variedad de usos según la necesidad de la persona que lo cree.
-<img src="/assets/images/arduinoUNO.jpg" align="right" height="150px" width="150px" >
+<img src="/assets/images/arduinoUNO.jpg" align="right" height="250px" width="250px" >
 Cuenta con microcrontroladores reprogramables y una serie de pines hembras. Esto pues basicamente permiten establecer conecciones entre el microcontrolador y los diferentes sensores y actuadores de una manera bastante sencilla, generalmente suele ser con cables [Dupons](https://www.amazon.com/dupont-cable/s?k=dupont+cable).
 Entonces el Arduino UNO de hoy podemos programarlo entre comillas para que actue como un RubberDucky.
