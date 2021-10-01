@@ -31,9 +31,7 @@ Por rubber ducky se conoce a un dispositivo USB que contiene información "malic
 
 <div class="usb">
   <img src="/assets/images/rubberducky1.jpg"
-       alt="Hola buenas tardes;
-           Hola buenas tardes"
-      align="center">
+      align="right" </img>
 </div>
 
 Al momento de conectar este USB, es reconocido con un driver Atmel, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.
