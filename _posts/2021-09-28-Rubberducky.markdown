@@ -42,6 +42,7 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - GUI r --> Es la pulsación de la tecla WIN y la “r”, que sirve para los sistemas operativos Windows para mostrar rápidamente la ventana de ejecutar. 
 - STRING --> Es la pulsación de todas las teclas de manera automática y a gran velocidad. 
 - ENTER --> Pulsa la tecla enter.
+- 
 {% highlight c %}
 REM Wifi-Grab
 DELAY 500
