@@ -33,5 +33,7 @@ Por rubber ducky se conoce a un dispositivo USB que contiene información "malic
     <img src="/assets/images/rubberducky1.jpg" align="right">
 </div>
 
-Al momento de conectar este USB, es reconocido con un dispositivo HID, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.
+<p>Al momento de conectar este USB, es reconocido con un dispositivo HID, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.</p>
+<p>En definitiva, es un ataque que puede sembrar el caos en una empresa porque si alguien deja un pendrive en una mesa es casi al 100% seguro que alguien lo enchufara para ver qué es y lo que menos se puede imaginar es que este USB este enviando una reverse shell o que este desactivando programas.</p>
+
 
