@@ -60,4 +60,4 @@ REM Presses Alt + Y to bypass UAC.
 ALT y
 {% endhighlight %}
 En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino)
-Pero nosotros no vamos a utilizar estos conversores porque después nos montaremos nuestro propio script con el lenguaje de Arduino que es parecido a C.
+<p>Pero nosotros no vamos a utilizar estos conversores porque después nos montaremos nuestro propio script con el lenguaje de Arduino que es parecido a C.</p>
