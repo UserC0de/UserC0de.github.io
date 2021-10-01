@@ -27,13 +27,13 @@ Entonces empecé a investigar y justamente **[S4vitar](https://www.youtube.com/c
 * [Probando nuestro RubberDucky 100% funcional](#probando-nuestro-rubberducky-100-funcional)
 
 ## Introducción al USB RubberDucky
-Por rubber ducky se conoce a un dispositivo USB que contiene información "maliciosa" la cual podría infectar tu PC una vez que lo conectas a ella. Esta información podría ser un keylogger, un encriptador de información o cualquier otra herramienta para apropiarse de tu **información** o negarte el uso a ella.
+> Por rubber ducky se conoce a un dispositivo USB que contiene información "maliciosa" la cual podría infectar tu PC una vez que lo conectas a ella. Esta información podría ser un keylogger, un encriptador de información o cualquier otra herramienta para apropiarse de tu **información** o negarte el uso a ella.
 
 <div class="usb">
     <img src="/assets/images/rubberducky1.jpg" align="right">
 </div>
 
-<p>Al momento de conectar este USB, es reconocido con un dispositivo HID, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.</p>
-<p>En definitiva, es un ataque que puede sembrar el caos en una empresa porque si alguien deja un pendrive en una mesa es casi al 100% seguro que alguien lo enchufara para ver qué es y lo que menos se puede imaginar es que este USB este enviando una reverse shell o que este desactivando programas.</p>
+> <p>Al momento de conectar este USB, es reconocido con un dispositivo HID, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.</p>
+> <p>En definitiva, es un ataque que puede sembrar el caos en una empresa porque si alguien deja un pendrive en una mesa es casi al 100% seguro que alguien lo enchufara para ver qué es y lo que menos se puede imaginar es que este USB este enviando una reverse shell o que este desactivando programas.</p>
 
 
