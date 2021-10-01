@@ -15,7 +15,7 @@ externalLink: false
 Muy buenas todos, hace tiempo en el 2º año de SMR (Sistemas Microinformáticos y Redes) nos mandaron a toda la clase hacer un proyecto con el Arduino UNO, nos dieron la libertad de hacer cualquier cosa, hubo gente que hicieron una impresora, otros un semáforo con luces, otros un mini altavoz que emitia pitidos y yo me propuse hacer un RubberDucky con la placa Arduino UNO.
 Entonces empecé a investigar y justamente **[S4vitar](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)** subió un vídeo de como convertir el arduino uno en un rubberducky, parece que los planetas se alienaron porque la verdad es que no se. 
 ## Tabla de contenido
-* [Introducción al USB RubberDucky](#introdución-al-usb-rubberducky)
+* [Introducción al USB RubberDucky](#introducción-al-usb-rubberducky)
 * [Lenguaje del código de un RubberDucky](#lenguaje-del-código-de-un-rubberducky)
 * [Introducción al Arduino UNO](#introducción-al-arduino-uno)
 * [Instalando Duckduino](#instalando-duckduino)
