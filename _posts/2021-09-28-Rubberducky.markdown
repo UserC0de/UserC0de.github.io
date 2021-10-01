@@ -42,6 +42,22 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - GUI r --> Es la pulsación de la tecla WIN y la “r”, que sirve para los sistemas operativos Windows para mostrar rápidamente la ventana de ejecutar. 
 - STRING --> Es la pulsación de todas las teclas de manera automática y a gran velocidad. 
 - ENTER --> Pulsa la tecla enter.
+- WINDOWS --> Menú Windows.
+- UPARROW --> Tecla arriba.
+- DOWNARROW --> Tecla abajo.
+- LEFTARROW --> Tecla a la izquierda.
+- RIGHTARROW --> Tecla derecha.
+- CAPS |CAPSLOCK --> BloqMayús.
+- REPEAT X --> Repetir X número de veces el comando anterior.
+# Se puede incluso utilizar algunas (pero no todas) de dos a tres combinaciones de teclas:
+- SHIFT ENTER
+- CTRL ALT DEL
+- ALT F4
+- WINDOWS X
+- ALT TAB
+- WINDOWS R
+
+
 
 {% highlight c %}
 REM Wifi-Grab
@@ -61,3 +77,6 @@ ALT y
 {% endhighlight %}
 En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino)
 <p>Pero nosotros no vamos a utilizar estos conversores porque después nos montaremos nuestro propio script con el lenguaje de Arduino que es parecido a C.</p>
+
+## Introducción al Arduino UNO
+
