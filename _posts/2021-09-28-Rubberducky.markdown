@@ -58,6 +58,8 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - ALT TAB
 - WINDOWS R
 
+<p>Ejemplo de un trozo de código:</p>
+
 {% highlight c %}
 REM Wifi-Grab
 DELAY 500
