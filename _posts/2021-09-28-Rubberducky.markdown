@@ -30,7 +30,7 @@ Entonces empecé a investigar y justamente **[S4vitar](https://www.youtube.com/c
 Por rubber ducky se conoce a un dispositivo USB que contiene información "maliciosa" la cual podría infectar tu PC una vez que lo conectas a ella. Esta información podría ser un keylogger, un encriptador de información o cualquier otra herramienta para apropiarse de tu **información** o negarte el uso a ella.
 
 <div class="usb">
-  <img src="/assets/images/rubberduckyº"
+  <img src="/assets/images/rubberducky1.jpg"
        alt="Hola buenas tardes;
            Hola buenas tardes"
        width="400"
