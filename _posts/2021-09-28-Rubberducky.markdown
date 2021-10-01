@@ -49,6 +49,7 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - RIGHTARROW --> Tecla derecha.
 - CAPS |CAPSLOCK --> BloqMayús.
 - REPEAT X --> Repetir X número de veces el comando anterior.
+- DELETE --> Simula la tecla suprimir
 #### Se puede incluso utilizar algunas (pero no todas) de dos a tres combinaciones de teclas:
 - SHIFT ENTER
 - CTRL ALT DEL
@@ -56,8 +57,6 @@ Entonces empecé a investigar y justamente [**S4vitar**](https://www.youtube.com
 - WINDOWS X
 - ALT TAB
 - WINDOWS R
-
-
 
 {% highlight c %}
 REM Wifi-Grab
@@ -75,7 +74,7 @@ DELAY 500
 REM Presses Alt + Y to bypass UAC.
 ALT y
 {% endhighlight %}
-En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino)
+En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino). [Aquí](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) os dejo un repositorio de Github donde se encuentran bastantes scripts para utilizar
 <p>Pero nosotros no vamos a utilizar estos conversores porque después nos montaremos nuestro propio script con el lenguaje de Arduino que es parecido a C.</p>
 
 ## Introducción al Arduino UNO
