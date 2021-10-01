@@ -28,6 +28,7 @@ Entonces empecé a investigar y justamente **[S4vitar](https://www.youtube.com/c
 
 ## Introducción al USB RubberDucky
 Por rubber ducky se conoce a un dispositivo USB que contiene información "maliciosa" la cual podría infectar tu PC una vez que lo conectas a ella. Esta información podría ser un keylogger, un encriptador de información o cualquier otra herramienta para apropiarse de tu **información** o negarte el uso a ella.
+
 ![rubberducky](/assets/images/rubberducky1.jpg)
 
 Al momento de conectar este USB, es reconocido con un driver Atmel, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.
