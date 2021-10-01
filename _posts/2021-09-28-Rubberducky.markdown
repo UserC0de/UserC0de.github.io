@@ -74,7 +74,7 @@ DELAY 500
 REM Presses Alt + Y to bypass UAC.
 ALT y
 {% endhighlight %}
-En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino). [Aquí](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) os dejo un repositorio de Github donde se encuentran bastantes scripts para utilizar
+En el caso de utilizar Arduino hay que convertir este código con alguno de los conversores [Duckduino](https://github.com/Dukweeno/Duckuino) o [Ducky2Arduino](https://github.com/kr0no/Ducky2Arduino). [Aquí](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) os dejo un repositorio de Github donde se encuentran bastantes scripts para utilizar, solo son compatibles con el usb rubberducky.
 <p>Pero nosotros no vamos a utilizar estos conversores porque después nos montaremos nuestro propio script con el lenguaje de Arduino que es parecido a C.</p>
 
 ## Introducción al Arduino UNO
