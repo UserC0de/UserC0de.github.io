@@ -34,5 +34,5 @@ Por rubber ducky se conoce a un dispositivo USB que contiene información "malic
       align="right"
 </div>
 
-Al momento de conectar este USB, es reconocido con un driver Atmel, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.
+Al momento de conectar este USB, es reconocido con un dispositivo HID, haciéndose pasar por un teclado normal (para no levantar sospechas y evitar que sea bloqueado por antivirus o firewall) y ejecuta las teclas indicadas en su código.
 
