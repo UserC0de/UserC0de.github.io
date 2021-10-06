@@ -1,3 +1,19 @@
+---
+title: "asdadUINO UNO"
+layout: post
+date: 2021-09-28 00:42
+tag: Arduino UNO, RubberDucky, Hardware, Hack, Se tensó
+image: 
+headerImage: true
+projects: true
+hidden: true
+description: "dsada"
+category: project
+author: Carlos
+externalLink: false
+---
+
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
