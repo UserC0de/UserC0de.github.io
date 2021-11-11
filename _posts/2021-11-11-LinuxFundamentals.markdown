@@ -35,4 +35,4 @@ Es justo decir que Linux es mucho más intimidante de abordar que los sistemas o
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados ​​en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
 
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
-> Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM 
+> ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
