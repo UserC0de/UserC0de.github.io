@@ -5,7 +5,7 @@ date: 2021-11-11 19:38
 tag: linux, kernel, commands, hacking, Se tensó
 image: /assets/images/linuxfundamental.png
 headerImage: true
-projects: true
+walkthroughs: true
 hidden: true
 description: "Como crear un rubberducky con un Arduino UNO"
 category: project
