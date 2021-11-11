@@ -17,8 +17,8 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
 ¡Cubriremos parte de la historia detrás de Linux y luego, finalmente, comenzaremos su viaje de ser un asistente de Linux! Esta habitación te tendrá:
 
    > Ejecutando sus primeros comandos en una interactiva Linux máquina en su navegador
-   > Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
-   > Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración) 
+     Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
+     Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración) 
 ***
 # ¿Dónde se utiliza Linux?
 
