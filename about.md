@@ -22,11 +22,11 @@ layout: page
 </ul>
 	<p>Espero que les halla gustado esta breve presentación sobre mí y que les motive a conocerme un poco más. Un saludo <n>hack</n> y hasta la próxima.</p>
 	
-### TryHackMe
+<h3>TryHackMe</h3>
 <script src="https://tryhackme.com/badge/368496"></script><br>
 
-### HackTheBox
-<img src="http://www.hackthebox.eu/badge/image/419310" alt="Hack The Box">
+<h3>HackTheBox</h3>
+<script src="https://www.hackthebox.eu/badge/419310"></script>
 
 <h2>Skills</h2>
 
