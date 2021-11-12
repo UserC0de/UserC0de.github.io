@@ -139,7 +139,7 @@ Analicemos esto:
 3. Linux nos dice amablemente que este directorio "Documentos" está almacenado en "**/home/ubuntu/Documents**" en la máquina - ¡es bueno saberlo!
 4. Ahora en el futuro, si nos encontramos en una ubicación diferente, podemos usar **`cd /home/ubuntu/Documents`** para cambiar nuestro directorio de trabajo a este directorio "Documentos".
 
-<em><h3 style="color: #a6d608;">Responda las siguiente preguntas</h3></em>
+<h3 style="color: #a6d608;">Responda las siguiente preguntas</h3>
 **[Pregunta]**<br>
 En la máquina Linux que implementa, ¿cuántas carpetas hay?
 > **4**
@@ -155,6 +155,36 @@ En la máquina Linux que implementa, ¿cuántas carpetas hay?
 **[Pregunta 4]**<br>
 Utilice el comando **cd** para navegar hasta este archivo y averiguar el nuevo directorio de trabajo actual. ¿Cual es la ruta?
 > `/home/tryhackme/folder4`
+
+---
+
+## Task 6: Searching for Files 
+Aunque no lo parece hasta ahora, una de las características redentoras de Linux es realmente lo eficiente que puede ser con él. Dicho esto, solo puede ser tan eficiente como esté familiarizado con él, por supuesto. A medida que interactúa con sistemas operativos como Ubuntu a lo largo del tiempo, los comandos esenciales como los que ya hemos cubierto comenzarán a convertirse en memoria muscular.<br>
+Una forma fantástica de demostrar cuán eficiente puede ser con sistemas como este es usar un conjunto de comandos para buscar rápidamente archivos en todo el sistema al que nuestro usuario tiene acceso. No es necesario usarlo constantemente **cd** y **ls** para averiguar qué es dónde. En su lugar, podemos usar comandos como **find** para automatizar cosas como esta para nosotros!
+> Aquí es donde Linux comienza a ser un poco más intimidante para acercarse, pero lo analizaremos y le ayudaremos a hacerlo.
+
+### Usando `find`
+El comando de búsqueda es fantástico en el sentido de que se puede usar de manera muy simple o bastante compleja, dependiendo de lo que desee hacer exactamente. De hecho, tanto es así, tenemos una sala completa dedicada a usar y practicar el búsqueda comando de . Sin embargo, vamos a ceñirnos primero a los fundamentos.<br
+Tome el fragmento a continuación, podemos ver una lista de directorios disponibles para nosotros: 
+![image](https://user-images.githubusercontent.com/43649283/141525626-a07d3c5e-4427-4496-bc22-55dd9ea7471e.png)
+
+1. Desktop
+2. Documents
+3. Pictures
+4. folder1
+
+Ahora, por supuesto, los directorios pueden contener incluso más directorios dentro de sí mismos. Se convierte en un dolor de cabeza cuando tenemos que revisar cada uno de ellos solo para intentar buscar archivos específicos. Nosotros podemos usar **find** para hacer esto por nosotros!<br>
+Comencemos de manera simple y asumamos que ya sabemos el nombre del archivo que estamos buscando, ¡pero no podemos recordar dónde está exactamente! En este caso, buscamos "**passwords.txt**"
+![image](https://user-images.githubusercontent.com/43649283/141525899-e2e341dc-d95f-496d-88e6-2264849a16c5.png)
+
+"Find" ha logrado encontrar el archivo - resulta que está ubicado en la carpeta1 / passwords.txt - dulce. Pero digamos que no conocemos el nombre del archivo o queremos buscar todos los archivos que tengan una extensión como ".txt". Encuentra ¡hagámoslo nosotros también!<br>
+Simplemente podemos usar lo que se conoce como comodín (\*) para buscar cualquier cosa que tenga .txt al final. En nuestro caso, queremos encontrar todos los archivos .txt que se encuentran en nuestro directorio actual. Construiremos un comando como **`find -name \*.txt`**. Donde "Find" ha podido encontrar cada archivo .txt y luego nos ha dado la ubicación de cada uno:
+![image](https://user-images.githubusercontent.com/43649283/141526045-708e270e-86df-4898-8e79-1e940a65a7fe.png)
+Find ha logrado encontrar :
+1. "passwords.txt" ubicado dentro de "folder1" 
+2. "todo.txt" ubicado dentro de "Documentos"
+
+Eso no fue tan difícil, ¡eh! 
 
 
 
