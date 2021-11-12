@@ -21,7 +21,7 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
    2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración)
 
-**[Pregunta]**
+#### **[Pregunta]**
 Let's get started!
 > *No answer needed*
 
@@ -46,7 +46,7 @@ El nombre " Linux " es en realidad un término general para varios sistemas oper
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
 > ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
 
-**[Pregunta]**<br>
+#### **[Pregunta]**<br>
  Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
 
 > *1991*
@@ -57,7 +57,7 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
 Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación. Puede encontrar más información sobre esto en la tutoriales sala de . 
 
-**[Pregunta]**<br>
+#### **[Pregunta]**<br>
  ¡Implementé mi primera máquina Linux!
 > *No answer needed*
 
@@ -73,11 +73,11 @@ Comencemos con dos de los primeros comandos que he desglosado en la siguiente ta
 ![image](https://user-images.githubusercontent.com/43649283/141393746-86e2a13b-81c2-4405-9d71-c680c45917e8.png)
 > Consulte los fragmentos a continuación para ver un ejemplo de cada comando que se utiliza ...
 
-**[Pregunta]**<br>
+#### **[Pregunta]**<br>
 Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 > **echo TryHackMe**
 
-**[Pregunta 2]**<br>
+#### **[Pregunta 2]**<br>
 ¿Cuál es el nombre de usuario de la persona con la que inició sesión en su implementada Linux máquina ?
 > **tryhackme**
 
