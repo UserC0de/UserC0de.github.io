@@ -73,6 +73,7 @@ Comencemos con dos de los primeros comandos que he desglosado en la siguiente ta
 ![image](https://user-images.githubusercontent.com/43649283/141393746-86e2a13b-81c2-4405-9d71-c680c45917e8.png)
 > Consulte los fragmentos a continuación para ver un ejemplo de cada comando que se utiliza ...
 
+<h3 style="color: green;">Responda las siguiente preguntas</h3>
 **[Pregunta]**<br>
 Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 > **echo TryHackMe**
