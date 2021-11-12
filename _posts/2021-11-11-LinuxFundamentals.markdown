@@ -50,7 +50,9 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
  Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
 
 > *1991*
+
 ---
+
 ## Task 3: Interacting With Your First Linux Machine (In-Browser)
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
 Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación. Puede encontrar más información sobre esto en la tutoriales sala de . 
