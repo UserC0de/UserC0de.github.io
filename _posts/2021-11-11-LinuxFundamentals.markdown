@@ -26,7 +26,8 @@ Let's get started!
 > ***No answer needed***
 
 ---
-<p><span style="color:green">MAR</span><span style="color:yellow">IHU</span><span style="color:red">ANA<span></p>
+<h4><span style="color:green">MAR</span><span style="color:yellow">IHU</span><span style="color:red">ANA<span></h4>
+    
 ## Task 2: A Bit of Background on Linux 
 #### ¿Dónde se utiliza Linux?
 
