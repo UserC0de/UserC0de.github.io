@@ -21,14 +21,14 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
    2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración)
 
-<p style="color: green;">Pregunta</p>
+**[Pregunta]**
 Let's get started!
-> ***No answer needed***
+> *No answer needed*
 
 ---
     
 ## Task 2: A Bit of Background on Linux 
-#### ¿Dónde se utiliza Linux?
+### ¿Dónde se utiliza Linux?
 
 Es justo decir que **Linux** es mucho más intimidante de abordar que los sistemas operativos (SO) como Windows. Ambas variantes tienen sus propias ventajas y desventajas. Por ejemplo, Linux es considerablemente más liviano y te sorprendería saber que es muy probable que hayas usado Linux de una forma u otra todos los días. Linux impulsa cosas como:
 
@@ -39,7 +39,7 @@ Es justo decir que **Linux** es mucho más intimidante de abordar que los sistem
 
 ---
 
-#### Sobre Linux
+### Sobre Linux
 
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
 
@@ -49,14 +49,25 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 **[Pregunta]**<br>
  Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
 
-> 1991
+> *1991*
 ---
-
 ## Task 3: Interacting With Your First Linux Machine (In-Browser)
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
 Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación. Puede encontrar más información sobre esto en la tutoriales sala de . 
 
 **[Pregunta]**<br>
  ¡Implementé mi primera máquina Linux!
-> ***No answer needed***
+> *No answer needed*
+
+---
+## Task 4: Running Your First few Commands 
+Como discutimos anteriormente, un gran punto de venta del uso de sistemas operativos como Ubuntu es lo livianos que pueden ser. Esto, por supuesto, no viene sin sus desventajas, donde, por ejemplo, a menudo no hay una GUI (interfaz gráfica de usuario) o lo que también se conoce como un entorno de escritorio que podamos utilizar para interactuar con la máquina (a menos que haya sido instalado). Una gran parte de la interacción con estos sistemas se realiza mediante el "Terminal".
+<br>
+La "Terminal" está basada puramente en texto y es intimidante al principio. Sin embargo, si analizamos algunos de los comandos, después de un tiempo, ¡rápidamente se familiarizará con el uso de la terminal! 
+![image](https://user-images.githubusercontent.com/43649283/141393431-c4c7441f-cbd0-4303-8824-a3b4be29e222.png)
+¡Necesitamos poder realizar funciones básicas como navegar a archivos, generar su contenido y crear archivos! Los comandos para hacerlo se explican por sí mismos (una vez que sepa cuáles son, por supuesto ...)<br>
+
+Comencemos con dos de los primeros comandos que he desglosado en la siguiente tabla:
+![image](https://user-images.githubusercontent.com/43649283/141393746-86e2a13b-81c2-4405-9d71-c680c45917e8.png)
+> Consulte los fragmentos a continuación para ver un ejemplo de cada comando que se utiliza ...
 
