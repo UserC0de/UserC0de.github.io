@@ -1,15 +1,15 @@
 ---
-title: "Linux Fundamentals - Parte 1"
+title: "THM Linux Fundamentals - Parte 1"
 layout: post
 date: 2021-11-11 19:38
 tag: linux, kernel, commands, hacking, Se tensó
 image: /assets/images/LinuxFundamentals1/linuxfundamental.png
 headerImage: true
 walkthroughs: true
-hidden: false
-description: "Como crear un rubberducky con un Arduino UNO"
-category: project
-author: Carlos
+hidden: true
+description: "THM Linux Fundamentals - Parte 1 en español"
+category: walkthroughs
+author: userc0de
 externalLink: false
 ---
 ## Task 1: Introdution
