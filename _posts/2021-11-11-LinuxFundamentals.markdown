@@ -21,7 +21,7 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
     2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
     3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración)
 
-**[Pregunta]**<br>
+<strong><p style="color: green;">[Pregunta]</p><strong><br>
 Let's get started!
 > ***No answer needed***
 
@@ -49,7 +49,7 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 **[Pregunta]**<br>
  Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
 
-> ***1906***
+> 1991
 ---
 
 ## Task 3: Interacting With Your First Linux Machine (In-Browser)
