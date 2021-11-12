@@ -16,23 +16,28 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
 
 ¡Cubriremos parte de la historia detrás de Linux y luego, finalmente, comenzaremos su viaje de ser un asistente de Linux! Esta habitación te tendrá:
 
-Ejecutando sus primeros comandos en una interactiva Linux máquina en su navegador
-Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
-Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración) 
-***
+   1. Ejecutando sus primeros comandos en una interactiva Linux máquina en su navegador
+    2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
+    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración) 
+---
 # ¿Dónde se utiliza Linux?
 
-Es justo decir que Linux es mucho más intimidante de abordar que los sistemas operativos (SO) como Windows. Ambas variantes tienen sus propias ventajas y desventajas. Por ejemplo, Linux es considerablemente más liviano y te sorprendería saber que es muy probable que hayas usado Linux de una forma u otra todos los días. Linux impulsa cosas como:
+Es justo decir que **Linux** es mucho más intimidante de abordar que los sistemas operativos (SO) como Windows. Ambas variantes tienen sus propias ventajas y desventajas. Por ejemplo, Linux es considerablemente más liviano y te sorprendería saber que es muy probable que hayas usado Linux de una forma u otra todos los días. Linux impulsa cosas como:
 
 * Sitios web que visita
 * Paneles de control / entretenimiento para el automóvil
 * Sistemas de punto de venta (PoS) como cajas registradoras y cajas registradoras en tiendas
 * Infraestructuras críticas como controladores de semáforos o sensores industriales
 
-***
-# Sabores de Linux
+---
+# Sobre Linux
 
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados ​​en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
 
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
 > ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
+
+**[Pregunta]**
+Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
+
+>!1906
