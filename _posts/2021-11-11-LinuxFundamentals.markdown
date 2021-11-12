@@ -12,15 +12,20 @@ category: project
 author: Carlos
 externalLink: false
 ---
+## Task 1: Introdution
 Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux". Lo más probable es que esté utilizando una máquina con Windows o Mac, ambos son diferentes en el diseño visual y en su funcionamiento. Al igual que Windows, iOS y MacOS, Linux es solo otro sistema operativo y uno de los más populares del mundo que alimenta autos inteligentes, dispositivos Android, supercomputadoras, electrodomésticos, servidores empresariales y más.
 
 ¡Cubriremos parte de la historia detrás de Linux y luego, finalmente, comenzaremos su viaje de ser un asistente de Linux! Esta habitación te tendrá:
 
    1. Ejecutando sus primeros comandos en una interactiva Linux máquina en su navegador
     2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
-    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración) 
+    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración)
+**[Pregunta]**
+Let's get started!
+> ***No answer needed***
 ---
-# ¿Dónde se utiliza Linux?
+## Task 2: A Bit of Background on Linux 
+#### ¿Dónde se utiliza Linux?
 
 Es justo decir que **Linux** es mucho más intimidante de abordar que los sistemas operativos (SO) como Windows. Ambas variantes tienen sus propias ventajas y desventajas. Por ejemplo, Linux es considerablemente más liviano y te sorprendería saber que es muy probable que hayas usado Linux de una forma u otra todos los días. Linux impulsa cosas como:
 
@@ -30,7 +35,7 @@ Es justo decir que **Linux** es mucho más intimidante de abordar que los sistem
 * Infraestructuras críticas como controladores de semáforos o sensores industriales
 
 ---
-# Sobre Linux
+#### Sobre Linux
 
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados ​​en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
 
@@ -38,6 +43,16 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 > ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
 
 **[Pregunta]**
-Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
+<p> Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?</p>
 
->!1906
+> ***1906***
+---
+
+## Task 3: Interacting With Your First Linux Machine (In-Browser)
+Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
+Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación. Puede encontrar más información sobre esto en la tutoriales sala de . 
+
+**[Pregunta]**
+<p> ¡Implementé mi primera máquina Linux!</p>
+> ***No answer needed***
+
