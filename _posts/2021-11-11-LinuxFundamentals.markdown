@@ -163,7 +163,7 @@ Aunque no lo parece hasta ahora, una de las características redentoras de Linux
 Una forma fantástica de demostrar cuán eficiente puede ser con sistemas como este es usar un conjunto de comandos para buscar rápidamente archivos en todo el sistema al que nuestro usuario tiene acceso. No es necesario usarlo constantemente **cd** y **ls** para averiguar qué es dónde. En su lugar, podemos usar comandos como **find** para automatizar cosas como esta para nosotros!
 > Aquí es donde Linux comienza a ser un poco más intimidante para acercarse, pero lo analizaremos y le ayudaremos a hacerlo.
 
-### Usando `find`
+### Usando find
 El comando de búsqueda es fantástico en el sentido de que se puede usar de manera muy simple o bastante compleja, dependiendo de lo que desee hacer exactamente. De hecho, tanto es así, tenemos una sala completa dedicada a usar y practicar el búsqueda comando de . Sin embargo, vamos a ceñirnos primero a los fundamentos.<br
 Tome el fragmento a continuación, podemos ver una lista de directorios disponibles para nosotros: 
 ![image](https://user-images.githubusercontent.com/43649283/141525626-a07d3c5e-4427-4496-bc22-55dd9ea7471e.png)
