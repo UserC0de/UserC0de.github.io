@@ -139,7 +139,7 @@ Analicemos esto:
 3. Linux nos dice amablemente que este directorio "Documentos" está almacenado en "**/home/ubuntu/Documents**" en la máquina - ¡es bueno saberlo!
 4. Ahora en el futuro, si nos encontramos en una ubicación diferente, podemos usar **`cd /home/ubuntu/Documents`** para cambiar nuestro directorio de trabajo a este directorio "Documentos".
 
-<h3 style="color: #a6d608;">Responda las siguiente preguntas</h3>
+<em><h3 style="color: #a6d608;">Responda las siguiente preguntas</h3></em>
 **[Pregunta]**<br>
 En la máquina Linux que implementa, ¿cuántas carpetas hay?
 > **4**
