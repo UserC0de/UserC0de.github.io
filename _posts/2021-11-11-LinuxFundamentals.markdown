@@ -88,11 +88,11 @@ Hasta ahora solo hemos cubierto los " echo " y " whoami comandos ". No es tan ú
 
 En esta tarea, aprenderemos los comandos para poder hacer precisamente eso. Al igual que en la tarea anterior, mostraré los comandos en la tabla en el siguiente encabezado y mostraré ejemplos de estos comandos que se utilizan.
 
-## Interactuar con el sistema de archivos
+### Interactuar con el sistema de archivos
 Como dije anteriormente, ser capaz de navegar por la máquina en la que está conectado sin depender de un entorno de escritorio es bastante importante. Después de todo, ¿de qué sirve iniciar sesión si no podemos ir a ninguna parte?
 ![image](https://user-images.githubusercontent.com/43649283/141395115-e81af62e-b92d-459c-85e1-5f818fcb1da1.png)
 
-## Listado de archivos en nuestro directorio actual (ls)
+### Listado de archivos en nuestro directorio actual (ls)
 Antes de que podamos hacer algo, como averiguar el contenido de cualquier archivo o carpeta, necesitamos saber qué existe en primer lugar. Esto se puede hacer usando el comando "ls" (abreviatura de listado)
 ![image](https://user-images.githubusercontent.com/43649283/141395193-65b23ac3-a7fd-411b-a203-c09de8f98c9f.png)<br>
 En la captura de pantalla anterior, podemos ver que existen los siguientes directorios / carpetas: 
@@ -102,4 +102,5 @@ En la captura de pantalla anterior, podemos ver que existen los siguientes direc
 * Notas
 * Imágenes
 
+> Consejo profesional: Puede enumerar el contenido de un directorio sin tener que navegar hasta él usando ls y el nombre del directorio. Es decir `ls Pictures`
 
