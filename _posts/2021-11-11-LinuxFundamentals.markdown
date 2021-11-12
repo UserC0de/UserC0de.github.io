@@ -104,3 +104,22 @@ En la captura de pantalla anterior, podemos ver que existen los siguientes direc
 
 > Consejo profesional: Puede enumerar el contenido de un directorio sin tener que navegar hasta él usando ls y el nombre del directorio. Es decir `ls Pictures`
 
+### Cambiando nuestro directorio actual (cd)
+Ahora que sabemos qué carpetas existen, necesitamos usar el " cd comando " (abreviatura de c hange d irectory) para cambiar a ese directorio. Digamos que si quisiera abrir el directorio "Imágenes", haría " cd Imágenes ". Donde nuevamente, queremos averiguar el contenido de este directorio "Imágenes" y para hacerlo, usaríamos " ls " nuevamente:
+![image](https://user-images.githubusercontent.com/43649283/141395593-2ff51dba-0421-495e-828a-d5ed4605a085.png)
+En este caso, ¡parece que hay 4 imágenes de perros!
+
+### Salida del contenido de un archivo (cat)
+Si bien saber sobre la existencia de archivos es genial, no es tan útil a menos que podamos ver su contenido.<br>
+Pasaremos a discutir algunas de las herramientas disponibles para nosotros que nos permiten transferir archivos de una máquina a otra en una sala posterior.<br>
+Pero por ahora, vamos a hablar de simplemente ver el contenido de los archivos de texto usando un comando llamado " cat".<br>
+"Cat" es la abreviatura de concatenación y es una manera fantástica de generar el contenido de los archivos (¡no solo archivos de texto!).<br>
+En la captura de pantalla a continuación, puede ver cómo combiné el uso de "ls" para enumerar los archivos dentro de un directorio llamado "Documentos": <br>
+![image](https://user-images.githubusercontent.com/43649283/141395688-344708c4-5f4a-4342-84f0-eb71f87838e6.png)
+Hemos aplicado algunos conocimientos de antes en esta tarea para hacer lo siguiente:
+
+1. Se usó " **ls** " para informarnos qué archivos están disponibles en la carpeta "Documentos" de esta máquina. En este caso, se llama "todo.txt".
+2. Luego hemos usado `cat todo.txt` para concatenar / generar el contenido de este archivo "todo.txt", donde el contenido es "¡Aquí hay algo importante que debo hacer más tarde!"
+
+> Consejo profesional: puedes usar catpara generar el contenido de un archivo dentro de directorios sin tener que navegar hasta él usando cat y el nombre del directorio. Es decir cat /home/ubuntu/Documents/todo.txt
+
