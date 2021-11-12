@@ -21,7 +21,12 @@ layout: page
 	<li>Balocesto 🏀</li>
 </ul>
 	<p>Espero que les halla gustado esta breve presentación sobre mí y que les motive a conocerme un poco más. Un saludo <n>hack</n> y hasta la próxima.</p>
-<script src="https://tryhackme.com/badge/368496"></script>
+	
+### TryHackMe
+<script src="https://tryhackme.com/badge/368496"></script><br>
+
+### HackTheBox
+<img src="http://www.hackthebox.eu/badge/image/419310" alt="Hack The Box">
 
 <h2>Skills</h2>
 
