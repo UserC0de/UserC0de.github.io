@@ -3,10 +3,10 @@ title: "Linux Fundamentals - Parte 1"
 layout: post
 date: 2021-11-11 19:38
 tag: linux, kernel, commands, hacking, Se tensó
-image: /assets/images/linuxfundamental.png
+image: /assets/images/linuxfundamentals1/linuxfundamental.png
 headerImage: true
 walkthroughs: true
-hidden: true
+hidden: false
 description: "Como crear un rubberducky con un Arduino UNO"
 category: project
 author: Carlos
