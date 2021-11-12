@@ -121,5 +121,36 @@ Hemos aplicado algunos conocimientos de antes en esta tarea para hacer lo siguie
 1. Se usó " **ls** " para informarnos qué archivos están disponibles en la carpeta "Documentos" de esta máquina. En este caso, se llama "todo.txt".
 2. Luego hemos usado `cat todo.txt` para concatenar / generar el contenido de este archivo "todo.txt", donde el contenido es "¡Aquí hay algo importante que debo hacer más tarde!"
 
-> Consejo profesional: puedes usar catpara generar el contenido de un archivo dentro de directorios sin tener que navegar hasta él usando cat y el nombre del directorio. Es decir cat /home/ubuntu/Documents/todo.txt
+> **Consejo profesional:** puedes usar catpara generar el contenido de un archivo dentro de directorios sin tener que navegar hasta él usando cat y el nombre del directorio. Es decir `cat /home/ubuntu/Documents/todo.txt`
+
+A veces, cosas como nombres de usuario, contraseñas (sí, realmente ...), banderas o ajustes de configuración se almacenan en archivos donde se puede usar "cat" para recuperarlos.
+
+### Descubriendo la ruta completa a nuestro directorio de trabajo actual (pwd) 
+Notará que a medida que avanza en la navegación de su máquina Linux, el nombre del directorio en el que está trabajando actualmente aparecerá en su terminal.<br>
+Es fácil perder la pista de dónde estamos exactamente en el sistema de archivos, por eso quiero presentar " pwd ". Esto significa p rint w RABAJAR d irectorio.<br>
+Usando la máquina de ejemplo de antes, estamos actualmente en la carpeta "Documentos", pero ¿dónde está exactamente en el sistema de archivos de la máquina Linux? Podemos averiguarlo usando este comando "pwd" como en la siguiente captura de pantalla:
+![image](https://user-images.githubusercontent.com/43649283/141517690-27a1e13f-2a7b-4caf-ae8d-55f28b8b3a16.png)
+Analicemos esto:
+1. Ya sabemos que estamos en "Documentos" gracias a nuestro terminal, pero en este momento, no tenemos idea de dónde está almacenado "Documentos" para que podamos volver a él fácilmente en el futuro.
+2. He utilizado el **"pwd"** (*print working directory*) de comandos para encontrar la ruta completa del archivo de esta carpeta "**Documentos**".
+3. Linux nos dice amablemente que este directorio "Documentos" está almacenado en "**/home/ubuntu/Documents**" en la máquina - ¡es bueno saberlo!
+4. Ahora en el futuro, si nos encontramos en una ubicación diferente, podemos usar **`cd /home/ubuntu/Documents`** para cambiar nuestro directorio de trabajo a este directorio "Documentos".
+
+**[Pregunta]**<br>
+En la máquina Linux que implementa, ¿cuántas carpetas hay?
+> **4**
+
+**[Pregunta 2]**<br>
+¿Qué directorio contiene un archivo?
+> **folder4**
+
+**[Pregunta 3]**<br>
+¿Cuál es el contenido de este archivo?
+> **Hello World**
+
+**[Pregunta 4]**<br>
+Utilice el comando **cd** para navegar hasta este archivo y averiguar el nuevo directorio de trabajo actual. ¿Cual es la ruta?
+> `/home/tryhackme/folder4`
+
+
 
