@@ -1,5 +1,5 @@
 ---
-title: "THM Linux Fundamentals - Parte 1"
+title: "TryHackMe | Linux Fundamentals - Parte 1"
 layout: post
 date: 2021-11-11 19:38
 tag: linux, kernel, commands, hacking, Se tensó
