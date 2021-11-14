@@ -21,6 +21,7 @@ Bienvenido a la primera parte de la serie de salas "Conceptos básicos de Linux"
    2. Enseñarle algunos comandos esenciales que se utilizan para interactuar con el sistema de archivos.
    3. Presentarle cómo trabajan los usuarios y grupos en Linux (y lo que esto significa para nosotros como probadores de penetración)
 
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
 Let's get started!
 > *No answer needed*
@@ -46,7 +47,7 @@ El nombre " Linux " es en realidad un término general para varios sistemas oper
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
 > ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
 
-<h3 style="color: #a6d608;">Responda las siguiente preguntas</h3>
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
  Investigación: ¿En qué año fue el primer lanzamiento de un sistema operativo Linux?
 
@@ -58,7 +59,7 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
 Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación.<br>
 
-<h3 style="color: #a6d608;">Responda las siguiente preguntas</h3>
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
  ¡Implementé mi primera máquina Linux!
 > *No answer needed*
@@ -75,7 +76,7 @@ Comencemos con dos de los primeros comandos que he desglosado en la siguiente ta
 ![image](https://user-images.githubusercontent.com/43649283/141393746-86e2a13b-81c2-4405-9d71-c680c45917e8.png)
 > Consulte los fragmentos a continuación para ver un ejemplo de cada comando que se utiliza ...
 
-<h3 style="color: #a6d608;">Responda las siguiente preguntas</h3>
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
 Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 > **echo TryHackMe**
@@ -160,11 +161,12 @@ Utilice el comando **cd** para navegar hasta este archivo y averiguar el nuevo d
 
 ## Task 6: Searching for Files 
 Aunque no lo parece hasta ahora, una de las características redentoras de Linux es realmente lo eficiente que puede ser con él. Dicho esto, solo puede ser tan eficiente como esté familiarizado con él, por supuesto. A medida que interactúa con sistemas operativos como Ubuntu a lo largo del tiempo, los comandos esenciales como los que ya hemos cubierto comenzarán a convertirse en memoria muscular.<br>
+<br>
 Una forma fantástica de demostrar cuán eficiente puede ser con sistemas como este es usar un conjunto de comandos para buscar rápidamente archivos en todo el sistema al que nuestro usuario tiene acceso. No es necesario usarlo constantemente **cd** y **ls** para averiguar qué es dónde. En su lugar, podemos usar comandos como **find** para automatizar cosas como esta para nosotros!
 > Aquí es donde Linux comienza a ser un poco más intimidante para acercarse, pero lo analizaremos y le ayudaremos a hacerlo.
 
 ### Usando find
-El comando de búsqueda es fantástico en el sentido de que se puede usar de manera muy simple o bastante compleja, dependiendo de lo que desee hacer exactamente. De hecho, tanto es así, tenemos una sala completa dedicada a usar y practicar el búsqueda comando de . Sin embargo, vamos a ceñirnos primero a los fundamentos.<br
+El comando de búsqueda es fantástico en el sentido de que se puede usar de manera muy simple o bastante compleja, dependiendo de lo que desee hacer exactamente. De hecho, tanto es así, tenemos una sala completa dedicada a usar y practicar el búsqueda comando de . Sin embargo, vamos a ceñirnos primero a los fundamentos.<br>
 Tome el fragmento a continuación, podemos ver una lista de directorios disponibles para nosotros: 
 ![image](https://user-images.githubusercontent.com/43649283/141525626-a07d3c5e-4427-4496-bc22-55dd9ea7471e.png)
 
@@ -177,7 +179,7 @@ Ahora, por supuesto, los directorios pueden contener incluso más directorios de
 Comencemos de manera simple y asumamos que ya sabemos el nombre del archivo que estamos buscando, ¡pero no podemos recordar dónde está exactamente! En este caso, buscamos "**passwords.txt**"
 ![image](https://user-images.githubusercontent.com/43649283/141525899-e2e341dc-d95f-496d-88e6-2264849a16c5.png)
 
-"Find" ha logrado encontrar el archivo - resulta que está ubicado en la carpeta1 / passwords.txt - dulce. Pero digamos que no conocemos el nombre del archivo o queremos buscar todos los archivos que tengan una extensión como ".txt". Encuentra ¡hagámoslo nosotros también!<br>
+**"Find"** ha logrado encontrar el archivo - resulta que está ubicado en la carpeta1 /passwords.txt - dulce. Pero digamos que no conocemos el nombre del archivo o queremos buscar todos los archivos que tengan una extensión como ".txt". Encuentra ¡hagámoslo nosotros también!<br>
 Simplemente podemos usar lo que se conoce como comodín (\*) para buscar cualquier cosa que tenga .txt al final. En nuestro caso, queremos encontrar todos los archivos .txt que se encuentran en nuestro directorio actual. Construiremos un comando como **`find -name \*.txt`**. Donde "Find" ha podido encontrar cada archivo .txt y luego nos ha dado la ubicación de cada uno:
 ![image](https://user-images.githubusercontent.com/43649283/141526045-708e270e-86df-4898-8e79-1e940a65a7fe.png)
 Find ha logrado encontrar :
@@ -185,6 +187,5 @@ Find ha logrado encontrar :
 2. "todo.txt" ubicado dentro de "Documentos"
 
 Eso no fue tan difícil, ¡eh! 
-
 
 
