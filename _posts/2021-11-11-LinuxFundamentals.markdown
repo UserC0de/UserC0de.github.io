@@ -240,6 +240,7 @@ Digamos que queremos crear un archivo llamado "**welcome**" con el mensaje "**he
 ![image](https://user-images.githubusercontent.com/43649283/141700123-69013ccd-12d2-4013-beb1-55a83c0c2960.png)
 > *Nota: Si el archivo, es decir, "welcome" ya existe, el contenido se **sobrescribirá**.* 
 
+**---**
 
 ## Operador ">>"
 Este operador también es un redirector de salida como en el operador anterior (**>**) Nosotros discutimos. Sin embargo, lo que hace que este operador sea diferente es que en lugar de sobrescribir cualquier contenido dentro de un archivo, por ejemplo, simplemente pone la salida al final.<br>
@@ -251,19 +252,19 @@ El operador **>>** permite agregar la salida al final del archivo, **en lugar de
 ![image](https://user-images.githubusercontent.com/43649283/141700308-da9a4bae-500f-4c4f-9aa6-78547a1c7925.png)
 
 <h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
-[Pregunta]<br>
+**[Pregunta]**<br>
 Si quisiéramos ejecutar un comando en segundo plano, ¿Qué operador querríamos usar?
 > **&**
 
-[Pregunta 2]<br>
+**[Pregunta 2]**<br>
 Si quisiera reemplazar el contenido de un archivo llamado "passwords" con la palabra "password123", ¿cuál sería el comando? 
 > **`echo password123 > passwords`**
 
-[Pregunta 3]<br>
+**[Pregunta 3]**<br>
 Ahora, si quisiera agregar "tryhackme" a este archivo llamado "passwords" pero también mantener "passwords123", ¿cuál sería mi comando?
 > **`echo tryhackme >> passwords`**
 
-[Pregunta 4]<br>
+**[Pregunta 4]**<br>
 Ahora use la máquina Linux implementada para ponerlos en práctica
 > *No answer needed*
 
