@@ -43,7 +43,7 @@ Es justo decir que **Linux** es mucho más intimidante de abordar que los sistem
 ### Sobre Linux
 
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
-
+<br>
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
 > ***Ubuntu Server puede ejecutarse en sistemas con solo 512 MB de RAM***
 
@@ -89,7 +89,7 @@ Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 ---
 ## Task 5: Interacting With the Filesystem! 
 Hasta ahora solo hemos cubierto los " echo " y " whoami comandos ". No es tan útil cuando considera las cosas que tenemos que hacer, incluida la navegación por el sistema de archivos, leer y escribir en él también.<br>
-
+<br>
 En esta tarea, aprenderemos los comandos para poder hacer precisamente eso. Al igual que en la tarea anterior, mostraré los comandos en la tabla en el siguiente encabezado y mostraré ejemplos de estos comandos que se utilizan.
 
 ### Interactuar con el sistema de archivos
@@ -117,6 +117,7 @@ En este caso, ¡parece que hay 4 imágenes de perros!
 Si bien saber sobre la existencia de archivos es genial, no es tan útil a menos que podamos ver su contenido.<br>
 Pasaremos a discutir algunas de las herramientas disponibles para nosotros que nos permiten transferir archivos de una máquina a otra en una sala posterior.<br>
 Pero por ahora, vamos a hablar de simplemente ver el contenido de los archivos de texto usando un comando llamado " cat".<br>
+<br>
 "Cat" es la abreviatura de concatenación y es una manera fantástica de generar el contenido de los archivos (¡no solo archivos de texto!).<br>
 En la captura de pantalla a continuación, puede ver cómo combiné el uso de "ls" para enumerar los archivos dentro de un directorio llamado "Documentos": <br>
 ![image](https://user-images.githubusercontent.com/43649283/141395688-344708c4-5f4a-4342-84f0-eb71f87838e6.png)
