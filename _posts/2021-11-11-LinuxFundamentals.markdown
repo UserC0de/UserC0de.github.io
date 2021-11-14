@@ -196,6 +196,31 @@ Eso no fue tan difícil, ¡eh!
 Otra gran utilidad que es muy buena para aprender es el uso de "**grep**". El comando "**grep**" nos permite buscar en el contenido de los archivos los valores específicos que estamos buscando.<br>
 Tomemos, por ejemplo, el registro de acceso de un servidor web. En este caso, el access.log de un servidor web tiene 244 entradas.
 ![image](https://user-images.githubusercontent.com/43649283/141698672-bea21835-75d1-4bbd-a816-81da029a9111.png)
-Usando un comando como **cat** no lo va a cortar muy bien aquí. Digamos, por ejemplo, si quisiéramos buscar en este archivo de registro para ver las cosas que visitó un determinado usuario / dirección IP. Mirar 244 entradas no es tan eficiente considerando que queremos encontrar un valor específico.
+Usando un comando como **cat** no lo va a cortar muy bien aquí. Digamos, por ejemplo, si quisiéramos buscar en este archivo de registro para ver las cosas que visitó un determinado usuario / dirección IP. Mirar 244 entradas no es tan eficiente considerando que queremos encontrar un valor específico.<br>
 <br>
-Nosotros podemos usar grep para buscar en todo el contenido de este archivo cualquier entrada del valor que estamos buscando. Siguiendo con el ejemplo del registro de acceso de un servidor web, queremos ver todo lo que ha visitado la dirección IP "81.143.211.90" (tenga en cuenta que esto es ficticio) 
+Nosotros podemos usar **grep** para buscar en todo el contenido de este archivo cualquier entrada del valor que estamos buscando. Siguiendo con el ejemplo del registro de acceso de un servidor web, queremos ver todo lo que ha visitado la dirección IP **"81.143.211.90"** (tenga en cuenta que esto es ficticio)
+![image](https://user-images.githubusercontent.com/43649283/141698781-ef14c61d-d606-4114-b4bf-0ea890459749.png)
+"Grep" ha buscado en este archivo y nos ha mostrado cualquier entrada de lo que hemos proporcionado y que está contenido en este archivo de registro para la IP. 
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
+[Pregunta]<br>
+Utilice grep en "access.log" para encontrar la bandera que tiene el prefijo "THM". ¿Cuál es la bandera?
+> THM{\*\*\*\*\*\*}
+
+[Pregunta 2]<br>
+¡Y todavía no he encontrado lo que estoy buscando!
+> *No answer needed*
+
+
+## Task 7: Introducción a los operadores de shell
+Los operadores de Linux son una forma fantástica de mejorar sus conocimientos sobre el trabajo con Linux. Hay algunos operadores importantes que vale la pena mencionar. Cubriremos los conceptos básicos y los dividiremos en trozos del tamaño de un bocado.<br>
+En una descripción general, mostraré los siguientes operadores:
+| Símbolo / Operador | Descripción |  
+| ----------- | ----------- |  
+| & | Este operador le permite ejecutar comandos en segundo plano en su terminal. |
+| && | Este operador le permite combinar varios comandos juntos en una línea de su terminal. |
+| > |Este operador es un redirector, lo que significa que podemos tomar el resultado de un comando (como usar cat para generar un archivo) y dirigirlo a otra parte.|
+| >> |Este operador hace la misma función que el **>** operador, pero agrega la salida en lugar de reemplazar (lo que significa que no se sobrescribe nada).|
+
+
+
+
