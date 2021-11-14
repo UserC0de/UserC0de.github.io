@@ -240,7 +240,7 @@ Digamos que queremos crear un archivo llamado "**welcome**" con el mensaje "**he
 ![image](https://user-images.githubusercontent.com/43649283/141700123-69013ccd-12d2-4013-beb1-55a83c0c2960.png)
 > *Nota: Si el archivo, es decir, "welcome" ya existe, el contenido se **sobrescribirá**.* 
 
-<strong><hr></strong>
+<hr>
 
 ## Operador ">>"
 Este operador también es un redirector de salida como en el operador anterior (**>**) Nosotros discutimos. Sin embargo, lo que hace que este operador sea diferente es que en lugar de sobrescribir cualquier contenido dentro de un archivo, por ejemplo, simplemente pone la salida al final.<br>
