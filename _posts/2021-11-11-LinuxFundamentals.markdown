@@ -195,8 +195,7 @@ Eso no fue tan difícil, ¡eh!
 ### Usando Grep 
 Otra gran utilidad que es muy buena para aprender es el uso de "**grep**". El comando "**grep**" nos permite buscar en el contenido de los archivos los valores específicos que estamos buscando.<br>
 Tomemos, por ejemplo, el registro de acceso de un servidor web. En este caso, el access.log de un servidor web tiene 244 entradas.
-```bash
-tryhackme@linux1:~$ wc -l access.log
-244 access.log
-tryhackme@linux1:~$
-```
+![image](https://user-images.githubusercontent.com/43649283/141698672-bea21835-75d1-4bbd-a816-81da029a9111.png)
+Usando un comando como **cat** no lo va a cortar muy bien aquí. Digamos, por ejemplo, si quisiéramos buscar en este archivo de registro para ver las cosas que visitó un determinado usuario / dirección IP. Mirar 244 entradas no es tan eficiente considerando que queremos encontrar un valor específico.
+<br>
+Nosotros podemos usar grep para buscar en todo el contenido de este archivo cualquier entrada del valor que estamos buscando. Siguiendo con el ejemplo del registro de acceso de un servidor web, queremos ver todo lo que ha visitado la dirección IP "81.143.211.90" (tenga en cuenta que esto es ficticio) 
