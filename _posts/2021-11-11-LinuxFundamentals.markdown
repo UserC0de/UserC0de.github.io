@@ -210,17 +210,32 @@ Utilice grep en "access.log" para encontrar la bandera que tiene el prefijo "THM
 ¡Y todavía no he encontrado lo que estoy buscando!
 > *No answer needed*
 
-
+---
 ## Task 7: Introducción a los operadores de shell
 Los operadores de Linux son una forma fantástica de mejorar sus conocimientos sobre el trabajo con Linux. Hay algunos operadores importantes que vale la pena mencionar. Cubriremos los conceptos básicos y los dividiremos en trozos del tamaño de un bocado.<br>
 En una descripción general, mostraré los siguientes operadores:
-| Símbolo / Operador | Descripción |  
-| ----------- | ----------- |  
-| & | Este operador le permite ejecutar comandos en segundo plano en su terminal. |
-| && | Este operador le permite combinar varios comandos juntos en una línea de su terminal. |
-| > |Este operador es un redirector, lo que significa que podemos tomar el resultado de un comando (como usar cat para generar un archivo) y dirigirlo a otra parte.|
-| >> |Este operador hace la misma función que el **>** operador, pero agrega la salida en lugar de reemplazar (lo que significa que no se sobrescribe nada).|
+![image](https://user-images.githubusercontent.com/43649283/141699246-28de998a-d4d6-480f-b692-89e0bd38c839.png)
+Cubriremos estos con un poco más de detalle.
 
+### Operador "&"
+Este operador nos permite ejecutar comandos en segundo plano. Por ejemplo, digamos que queremos copiar un archivo grande. Obviamente, esto llevará bastante tiempo y no nos permitirá hacer nada más hasta que el archivo se copie correctamente.<br>
+<br>
+El operador de shell "&" nos permite ejecutar un comando y hacer que se ejecute en segundo plano (como esta copia de archivo) ¡permitiéndonos hacer otras cosas! 
 
+---
 
+### Operador "&&" 
+Este operador de shell es un poco engañoso en el sentido de lo familiar que es para su socio "&". A diferencia del operador "&", podemos usar "&&" para hacer una lista de comandos para ejecutar, por ejemplo "**command1 && command2**". Sin embargo, vale la pena señalar que **command2** solo se ejecutará si **command1** fue exitoso. 
+
+---
+
+### Operador ">"
+Este operador es lo que se conoce como redirector de salida. Lo que esto significa esencialmente es que tomamos la salida de un comando que ejecutamos y enviamos esa salida a otro lugar.<br>
+<br>
+Un gran ejemplo de esto es redirigir la salida del **echo** comando que aprendimos en la Task 4. Por supuesto, ejecutar algo como "**echo howdy**" devolverá "howdy" a nuestra terminal, eso no es muy útil. Lo que podemos hacer en su lugar, es redirigir "howdy" a algo como un nuevo archivo.<br>
+<br>
+Digamos que queremos crear un archivo llamado "**welcome**" con el mensaje "**hey**". Podemos correr ***echo hey > welcome*** donde queremos que se cree el archivo con el contenido "hey" así:
+![image](https://user-images.githubusercontent.com/43649283/141700114-99a620cd-60f9-4052-8c4a-3a03b53acccb.png)
+![image](https://user-images.githubusercontent.com/43649283/141700123-69013ccd-12d2-4013-beb1-55a83c0c2960.png)
+> *Nota: Si el archivo, es decir, "welcome" ya existe, el contenido se **sobrescribirá**.* 
 
