@@ -292,31 +292,4 @@ Para recapitular rápidamente, hemos cubierto lo siguiente:
 ---
 
 ## Task 9: Conceptos bàsicos y Linux parte 2
-**¡Visite la segunda parte de la serie de fundamentos de Linux aquí! https://tryhackme.com/room/linuxfundamentalspart2**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+¡Visite la segunda parte de la serie de fundamentos de Linux [aquí!](https://tryhackme.com/room/linuxfundamentalspart2)
