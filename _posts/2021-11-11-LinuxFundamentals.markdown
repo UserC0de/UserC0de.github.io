@@ -201,6 +201,7 @@ Usando un comando como **cat** no lo va a cortar muy bien aquí. Digamos, por ej
 Nosotros podemos usar **grep** para buscar en todo el contenido de este archivo cualquier entrada del valor que estamos buscando. Siguiendo con el ejemplo del registro de acceso de un servidor web, queremos ver todo lo que ha visitado la dirección IP **"81.143.211.90"** (tenga en cuenta que esto es ficticio)
 ![image](https://user-images.githubusercontent.com/43649283/141698781-ef14c61d-d606-4114-b4bf-0ea890459749.png)
 "Grep" ha buscado en este archivo y nos ha mostrado cualquier entrada de lo que hemos proporcionado y que está contenido en este archivo de registro para la IP. 
+
 <h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 [Pregunta]<br>
 Utilice grep en "access.log" para encontrar la bandera que tiene el prefijo "THM". ¿Cuál es la bandera?
@@ -238,4 +239,55 @@ Digamos que queremos crear un archivo llamado "**welcome**" con el mensaje "**he
 ![image](https://user-images.githubusercontent.com/43649283/141700114-99a620cd-60f9-4052-8c4a-3a03b53acccb.png)
 ![image](https://user-images.githubusercontent.com/43649283/141700123-69013ccd-12d2-4013-beb1-55a83c0c2960.png)
 > *Nota: Si el archivo, es decir, "welcome" ya existe, el contenido se **sobrescribirá**.* 
+
+
+## Operador ">>"
+Este operador también es un redirector de salida como en el operador anterior (**>**) Nosotros discutimos. Sin embargo, lo que hace que este operador sea diferente es que en lugar de sobrescribir cualquier contenido dentro de un archivo, por ejemplo, simplemente pone la salida al final.<br>
+<br>
+Siguiendo con nuestro ejemplo anterior donde tenemos el archivo "welcome" que tiene el contenido de "hey". Si tuviera que usar echo para agregar "hello" al archivo usando el operador "**>**", el archivo ahora solo tendrá "hello" y no "hey".<br>
+<br>
+El operador **>>** permite agregar la salida al final del archivo, **en lugar de eemplazar el contenido de esta manera**:
+![image](https://user-images.githubusercontent.com/43649283/141700297-9a5d17d5-36bb-4e10-b1af-80041f774553.png)
+![image](https://user-images.githubusercontent.com/43649283/141700308-da9a4bae-500f-4c4f-9aa6-78547a1c7925.png)
+
+<h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
+[Pregunta]<br>
+Si quisiéramos ejecutar un comando en segundo plano, ¿Qué operador querríamos usar?
+> **&**
+
+[Pregunta 2]<br>
+Si quisiera reemplazar el contenido de un archivo llamado "passwords" con la palabra "password123", ¿cuál sería el comando? 
+> **`echo password123 > passwords`**
+
+[Pregunta 3]<br>
+Ahora, si quisiera agregar "tryhackme" a este archivo llamado "passwords" pero también mantener "passwords123", ¿cuál sería mi comando?
+> **`echo tryhackme >> passwords`**
+
+[Pregunta 4]<br>
+Ahora use la máquina Linux implementada para ponerlos en práctica
+> *No answer needed*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
