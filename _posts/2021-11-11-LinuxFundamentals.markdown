@@ -181,6 +181,7 @@ Comencemos de manera simple y asumamos que ya sabemos el nombre del archivo que 
 ![image](https://user-images.githubusercontent.com/43649283/141525899-e2e341dc-d95f-496d-88e6-2264849a16c5.png)
 
 **"Find"** ha logrado encontrar el archivo - resulta que está ubicado en la carpeta1 /passwords.txt - dulce. Pero digamos que no conocemos el nombre del archivo o queremos buscar todos los archivos que tengan una extensión como ".txt". Encuentra ¡hagámoslo nosotros también!<br>
+<br>
 Simplemente podemos usar lo que se conoce como comodín (\*) para buscar cualquier cosa que tenga .txt al final. En nuestro caso, queremos encontrar todos los archivos .txt que se encuentran en nuestro directorio actual. Construiremos un comando como **`find -name \*.txt`**. Donde "Find" ha podido encontrar cada archivo .txt y luego nos ha dado la ubicación de cada uno:
 ![image](https://user-images.githubusercontent.com/43649283/141526045-708e270e-86df-4898-8e79-1e940a65a7fe.png)
 Find ha logrado encontrar :
@@ -189,4 +190,13 @@ Find ha logrado encontrar :
 
 Eso no fue tan difícil, ¡eh! 
 
+***
 
+### Usando Grep 
+Otra gran utilidad que es muy buena para aprender es el uso de "**grep**". El comando "**grep**" nos permite buscar en el contenido de los archivos los valores específicos que estamos buscando.<br>
+Tomemos, por ejemplo, el registro de acceso de un servidor web. En este caso, el access.log de un servidor web tiene 244 entradas.
+```bash
+tryhackme@linux1:~$ wc -l access.log
+244 access.log
+tryhackme@linux1:~$
+```
