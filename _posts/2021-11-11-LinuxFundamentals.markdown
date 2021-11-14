@@ -211,11 +211,11 @@ Nosotros podemos usar **grep** para buscar en todo el contenido de este archivo 
 "Grep" ha buscado en este archivo y nos ha mostrado cualquier entrada de lo que hemos proporcionado y que está contenido en este archivo de registro para la IP. 
 
 <h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
-[Pregunta]<br>
+**[Pregunta]**<br>
 Utilice grep en "access.log" para encontrar la bandera que tiene el prefijo "THM". ¿Cuál es la bandera?
-> THM{\*\*\*\*\*\*}
+> **THM{\*\*\*\*\*\*}**
 
-[Pregunta 2]<br>
+**[Pregunta 2]**<br>
 ¡Y todavía no he encontrado lo que estoy buscando!
 > *No answer needed*
 
@@ -291,5 +291,5 @@ Para recapitular rápidamente, hemos cubierto lo siguiente:
 
 ---
 
-## Task 9: Conceptos bàsicos y Linux parte 2
+## Task 9: Conceptos básicos y Linux parte 2
 ¡Visite la segunda parte de la serie de fundamentos de Linux [aquí!](https://tryhackme.com/room/linuxfundamentalspart2)
