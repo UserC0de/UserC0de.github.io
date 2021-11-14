@@ -41,7 +41,6 @@ Es justo decir que **Linux** es mucho más intimidante de abordar que los sistem
 ---
 
 ### Sobre Linux
-
 El nombre " Linux " es en realidad un término general para varios sistemas operativos basados en UNIX (otro sistema operativo). Gracias a que UNIX es de código abierto, las variantes de Linux vienen en todas las formas y tamaños, las más adecuadas para el uso del sistema.
 <br>
 Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de Linux porque es muy extensible. Es decir, puede ejecutar Ubuntu como un servidor (como sitios web y aplicaciones web) o como un escritorio completo. Para esta serie, usaremos Ubuntu. 
@@ -65,6 +64,7 @@ Contiene toda la información de la máquina implementada en la habitación, inc
 > *No answer needed*
 
 ---
+
 ## Task 4: Running Your First few Commands 
 Como discutimos anteriormente, un gran punto de venta del uso de sistemas operativos como Ubuntu es lo livianos que pueden ser. Esto, por supuesto, no viene sin sus desventajas, donde, por ejemplo, a menudo no hay una GUI (interfaz gráfica de usuario) o lo que también se conoce como un entorno de escritorio que podamos utilizar para interactuar con la máquina (a menos que haya sido instalado). Una gran parte de la interacción con estos sistemas se realiza mediante el "Terminal".
 <br>
@@ -87,6 +87,7 @@ Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 > **tryhackme**
 
 ---
+
 ## Task 5: Interacting With the Filesystem! 
 Hasta ahora solo hemos cubierto los " echo " y " whoami comandos ". No es tan útil cuando considera las cosas que tenemos que hacer, incluida la navegación por el sistema de archivos, leer y escribir en él también.<br>
 <br>
@@ -95,6 +96,8 @@ En esta tarea, aprenderemos los comandos para poder hacer precisamente eso. Al i
 ### Interactuar con el sistema de archivos
 Como dije anteriormente, ser capaz de navegar por la máquina en la que está conectado sin depender de un entorno de escritorio es bastante importante. Después de todo, ¿de qué sirve iniciar sesión si no podemos ir a ninguna parte?
 ![image](https://user-images.githubusercontent.com/43649283/141395115-e81af62e-b92d-459c-85e1-5f818fcb1da1.png)
+
+---
 
 ### Listado de archivos en nuestro directorio actual (ls)
 Antes de que podamos hacer algo, como averiguar el contenido de cualquier archivo o carpeta, necesitamos saber qué existe en primer lugar. Esto se puede hacer usando el comando "ls" (abreviatura de listado)
@@ -108,10 +111,14 @@ En la captura de pantalla anterior, podemos ver que existen los siguientes direc
 
 > Consejo profesional: Puede enumerar el contenido de un directorio sin tener que navegar hasta él usando ls y el nombre del directorio. Es decir `ls Pictures`
 
+---
+
 ### Cambiando nuestro directorio actual (cd)
 Ahora que sabemos qué carpetas existen, necesitamos usar el " cd comando " (abreviatura de c hange d irectory) para cambiar a ese directorio. Digamos que si quisiera abrir el directorio "Imágenes", haría " cd Imágenes ". Donde nuevamente, queremos averiguar el contenido de este directorio "Imágenes" y para hacerlo, usaríamos " ls " nuevamente:
 ![image](https://user-images.githubusercontent.com/43649283/141395593-2ff51dba-0421-495e-828a-d5ed4605a085.png)
 En este caso, ¡parece que hay 4 imágenes de perros!
+
+---
 
 ### Salida del contenido de un archivo (cat)
 Si bien saber sobre la existencia de archivos es genial, no es tan útil a menos que podamos ver su contenido.<br>
@@ -166,6 +173,7 @@ Aunque no lo parece hasta ahora, una de las características redentoras de Linux
 Una forma fantástica de demostrar cuán eficiente puede ser con sistemas como este es usar un conjunto de comandos para buscar rápidamente archivos en todo el sistema al que nuestro usuario tiene acceso. No es necesario usarlo constantemente **cd** y **ls** para averiguar qué es dónde. En su lugar, podemos usar comandos como **find** para automatizar cosas como esta para nosotros!
 > Aquí es donde Linux comienza a ser un poco más intimidante para acercarse, pero lo analizaremos y le ayudaremos a hacerlo.
 
+
 ### Usando find
 El comando de búsqueda es fantástico en el sentido de que se puede usar de manera muy simple o bastante compleja, dependiendo de lo que desee hacer exactamente. De hecho, tanto es así, tenemos una sala completa dedicada a usar y practicar el búsqueda comando de . Sin embargo, vamos a ceñirnos primero a los fundamentos.<br>
 Tome el fragmento a continuación, podemos ver una lista de directorios disponibles para nosotros: 
@@ -190,7 +198,7 @@ Find ha logrado encontrar :
 
 Eso no fue tan difícil, ¡eh! 
 
-***
+---
 
 ### Usando Grep 
 Otra gran utilidad que es muy buena para aprender es el uso de "**grep**". El comando "**grep**" nos permite buscar en el contenido de los archivos los valores específicos que estamos buscando.<br>
@@ -212,6 +220,7 @@ Utilice grep en "access.log" para encontrar la bandera que tiene el prefijo "THM
 > *No answer needed*
 
 ---
+
 ## Task 7: Introducción a los operadores de shell
 Los operadores de Linux son una forma fantástica de mejorar sus conocimientos sobre el trabajo con Linux. Hay algunos operadores importantes que vale la pena mencionar. Cubriremos los conceptos básicos y los dividiremos en trozos del tamaño de un bocado.<br>
 En una descripción general, mostraré los siguientes operadores:
@@ -240,7 +249,7 @@ Digamos que queremos crear un archivo llamado "**welcome**" con el mensaje "**he
 ![image](https://user-images.githubusercontent.com/43649283/141700123-69013ccd-12d2-4013-beb1-55a83c0c2960.png)
 > *Nota: Si el archivo, es decir, "welcome" ya existe, el contenido se **sobrescribirá**.* 
 
-<hr>
+---
 
 ## Operador ">>"
 Este operador también es un redirector de salida como en el operador anterior (**>**) Nosotros discutimos. Sin embargo, lo que hace que este operador sea diferente es que en lugar de sobrescribir cualquier contenido dentro de un archivo, por ejemplo, simplemente pone la salida al final.<br>
@@ -267,6 +276,25 @@ Ahora, si quisiera agregar "tryhackme" a este archivo llamado "passwords" pero t
 **[Pregunta 4]**<br>
 Ahora use la máquina Linux implementada para ponerlos en práctica
 > *No answer needed*
+
+---
+## Task 8: Conclusiones y resúmenes
+¡Buen trabajo para llegar a esta etapa! Cubrimos bastante para sus primeras interacciones con Linux. Sin embargo, estas son las funciones / más esenciales que utilizará cada vez que interactúe con una máquina Linux.<br>
+<br>
+Espero que esta sala no haya sido demasiado abrumadora para que la enciendas. Como mencioné anteriormente, se familiarizará con estas cosas muy rápidamente debido a la frecuencia con la que las usará.<br>
+Para recapitular rápidamente, hemos cubierto lo siguiente:
+1. Comprender por qué Linux es tan común hoy en día 
+2. ¡Interactuando con su primera máquina Linux!
+3. Ejecutó algunos de los comandos más fundamentales
+4. ¡Recibí una introducción a la navegación por el sistema de archivos y cómo podemos usar comandos como find y grep para hacer que la búsqueda de datos sea aún más eficiente! 
+5. Mejore sus comandos aprendiendo sobre algunos de los operadores de shell importantes. 
+
+---
+
+## Task 9: Conceptos bàsicos y Linux parte 2
+**¡Visite la segunda parte de la serie de fundamentos de Linux aquí! https://tryhackme.com/room/linuxfundamentalspart2**
+
+
 
 
 
