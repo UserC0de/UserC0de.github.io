@@ -57,6 +57,65 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 ## Task 3: Interacting With Your First Linux Machine (In-Browser)
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
 Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación.<br>
+        UserC0de.github.io/_posts/
+
+        
+
+        
+           in 
+          gh-pages
+        
+
+
+            
+            
+      
+
+
+        
+
+        
+
+      
+      
+
+  
+
+
+    
+
+    
+
+
+  
+
+
+
+  
+
+
+
+    
+
+  
+    
+
+        
+
+          
+
+          
+
+        
+          
+
+
+    
+      
+        
+      ---
+
+title: "TryHackMe | Linux Fundamentals - Parte 1 (ESPAÑOL)"
 
 <h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
@@ -294,7 +353,8 @@ Para recapitular rápidamente, hemos cubierto lo siguiente:
 ## Task 9: Conceptos básicos y Linux parte 2
 ¡Visite la segunda parte de la serie de fundamentos de Linux [aquí!](https://tryhackme.com/room/linuxfundamentalspart2)
 
-<pre><code>┌──(kali㉿kali)-[~/ctf/thm/alfred]
+```bash
+┌──(kali㉿kali)-[~/ctf/thm/alfred]
 └─$ nmap $ip -Pn
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-07-09 10:06 EDT
@@ -305,4 +365,5 @@ PORT     STATE SERVICE
 80/tcp   open  http  
 3389/tcp open  ms-wbt-server
 8080/tcp open  http
-</code></pre><p>Now we will do comprehensive scans on three ports we found from quick scan.</p>
+```
+<p>Now we will do comprehensive scans on three ports we found from quick scan.</p>
