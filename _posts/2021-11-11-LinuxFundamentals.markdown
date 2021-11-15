@@ -28,7 +28,7 @@ Let's get started!
 
 ---
     
-## Task 2: A Bit of Background on Linux 
+## Task 2: Información general sobre Linux 
 ### ¿Dónde se utiliza Linux?
 
 Es justo decir que **Linux** es mucho más intimidante de abordar que los sistemas operativos (SO) como Windows. Ambas variantes tienen sus propias ventajas y desventajas. Por ejemplo, Linux es considerablemente más liviano y te sorprendería saber que es muy probable que hayas usado Linux de una forma u otra todos los días. Linux impulsa cosas como:
@@ -54,68 +54,9 @@ Por ejemplo, Ubuntu y Debian son algunas de las distribuciones más comunes de L
 
 ---
 
-## Task 3: Interacting With Your First Linux Machine (In-Browser)
+## Task 3: Interacción con su primera máquina Linux (En el navegador)
 Esta sala tiene una Ubuntu Linux con máquina la que puede interactuar dentro de su navegador mientras sigue el material de esta sala. 
-Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde " Terminar " una máquina una vez que haya terminado con la habitación.<br>
-        UserC0de.github.io/_posts/
-
-        
-
-        
-           in 
-          gh-pages
-        
-
-
-            
-            
-      
-
-
-        
-
-        
-
-      
-      
-
-  
-
-
-    
-
-    
-
-
-  
-
-
-
-  
-
-
-
-    
-
-  
-    
-
-        
-
-          
-
-          
-
-        
-          
-
-
-    
-      
-        
-      ---
-
-title: "TryHackMe | Linux Fundamentals - Parte 1 (ESPAÑOL)"
+Contiene toda la información de la máquina implementada en la habitación, incluida la dirección IP y el temporizador de vencimiento, junto con los botones para administrar la máquina. Recuerde **"Terminar"** una máquina una vez que haya terminado con la habitación.<br>
 
 <h3 style="color: #a6d608;"><i>Responda las siguiente preguntas</i></h3>
 **[Pregunta]**<br>
@@ -124,7 +65,7 @@ title: "TryHackMe | Linux Fundamentals - Parte 1 (ESPAÑOL)"
 
 ---
 
-## Task 4: Running Your First few Commands 
+## Task 4: Ejecución de sus primeros comandos 
 Como discutimos anteriormente, un gran punto de venta del uso de sistemas operativos como Ubuntu es lo livianos que pueden ser. Esto, por supuesto, no viene sin sus desventajas, donde, por ejemplo, a menudo no hay una GUI (interfaz gráfica de usuario) o lo que también se conoce como un entorno de escritorio que podamos utilizar para interactuar con la máquina (a menos que haya sido instalado). Una gran parte de la interacción con estos sistemas se realiza mediante el "Terminal".
 <br>
 La "Terminal" está basada puramente en texto y es intimidante al principio. Sin embargo, si analizamos algunos de los comandos, después de un tiempo, ¡rápidamente se familiarizará con el uso de la terminal! 
@@ -147,7 +88,7 @@ Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 
 ---
 
-## Task 5: Interacting With the Filesystem! 
+## Task 5: !Interacción con el sistema de archivos!
 Hasta ahora solo hemos cubierto los " echo " y " whoami comandos ". No es tan útil cuando considera las cosas que tenemos que hacer, incluida la navegación por el sistema de archivos, leer y escribir en él también.<br>
 <br>
 En esta tarea, aprenderemos los comandos para poder hacer precisamente eso. Al igual que en la tarea anterior, mostraré los comandos en la tabla en el siguiente encabezado y mostraré ejemplos de estos comandos que se utilizan.
@@ -352,18 +293,3 @@ Para recapitular rápidamente, hemos cubierto lo siguiente:
 
 ## Task 9: Conceptos básicos y Linux parte 2
 ¡Visite la segunda parte de la serie de fundamentos de Linux [aquí!](https://tryhackme.com/room/linuxfundamentalspart2)
-
-```powershell
-┌──(kali㉿kali)-[~/ctf/thm/alfred]
-└─$ nmap $ip -Pn
-Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
-Starting Nmap 7.91 ( https://nmap.org ) at 2021-07-09 10:06 EDT
-Nmap scan report for 10.10.145.45
-Host is up (0.19s latency).
-
-PORT     STATE SERVICE
-80/tcp   open  http  
-3389/tcp open  ms-wbt-server
-8080/tcp open  http
-```
-
