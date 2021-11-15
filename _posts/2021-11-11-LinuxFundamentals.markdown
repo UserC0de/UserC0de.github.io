@@ -353,7 +353,7 @@ Para recapitular rápidamente, hemos cubierto lo siguiente:
 ## Task 9: Conceptos básicos y Linux parte 2
 ¡Visite la segunda parte de la serie de fundamentos de Linux [aquí!](https://tryhackme.com/room/linuxfundamentalspart2)
 
-```bash
+```powershell
 ┌──(kali㉿kali)-[~/ctf/thm/alfred]
 └─$ nmap $ip -Pn
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
@@ -366,4 +366,4 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 8080/tcp open  http
 ```
-<p>Now we will do comprehensive scans on three ports we found from quick scan.</p>
+
