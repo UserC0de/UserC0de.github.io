@@ -21,8 +21,8 @@ y procedemos a buscar archivos que tengan de grupo "Admin". Y por ultimo editamo
 
 <h3 style="color: #a6d608;"><b>Información de la room</b></h3>
     
-- Título --> Team
-- Descripción --> Beginner friendly boot2root machine
-- Punto --> 60
-- Dificultad --> Facil
-- Hecho por --> dalemazza
+- ***Título*** --> Team
+- ***Descripción*** --> Beginner friendly boot2root machine
+- ***Punto*** --> 60
+- ****Dificultad*** --> Facil
+- ***Hecho por*** --> dalemazza
