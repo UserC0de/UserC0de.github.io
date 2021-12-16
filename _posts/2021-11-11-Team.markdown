@@ -41,4 +41,5 @@ Ya cambiado el /etc/hosts vemos una página distinta. ¿Buscamos directorios ocu
 
 <br><br>
 **Ejecutamos dirsearch para la busqueda de posibles directorios o archivos ocultos y encontramos 3 archivos.**
+![image](https://user-images.githubusercontent.com/43649283/146436509-0288bd6a-7824-4a18-bede-0a7a9dd9090c.png)
 
