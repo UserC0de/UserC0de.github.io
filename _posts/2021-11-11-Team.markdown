@@ -25,5 +25,5 @@ Al pivotar de usuario nos damos cuenta que estamos en el grupo "Admin" y procede
 - ***Título*** --> Team
 - ***Descripción*** --> Beginner friendly boot2root machine
 - ***Punto*** --> 60
-- ****Dificultad*** --> Facil
+- ***Dificultad*** --> Facil
 - ***Hecho por*** --> dalemazza
