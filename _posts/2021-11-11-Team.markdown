@@ -18,7 +18,7 @@ existe la vulnerabilidad Local File Inclusion. Al saber que hay LFI nos hacemos 
 Ya dentro del sistema tendremos que pivotar a otro usuario mediante un script en bash. Al pivotar de usuario nos damos cuenta que estamos en el grupo "Admin"
 y procedemos a buscar archivos que tengan de grupo "Admin". Y por ultimo editamos el archivo para ser root.
 
-<h3 style="color: #a6d608;"><b>Información de la room</b>/h3>
+<h3 style="color: #a6d608;"><b>Información de la room</b></h3>
     
 - Título --> Team
 - Descripción --> Beginner friendly boot2root machine
