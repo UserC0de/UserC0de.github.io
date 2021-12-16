@@ -41,7 +41,7 @@ Ya cambiado el /etc/hosts vemos una página distinta. ¿Buscamos directorios ocu
 
 <br><br>
 **Ejecutamos dirsearch para la busqueda de posibles directorios o archivos ocultos y encontramos 3 archivos.**
-```bash
+```powershell
 ┌──(userc0de⏽kali)-[~/TryHackMe/Labs/Easy/Team]
 └─$ dirsearch -u team.thm -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
 
