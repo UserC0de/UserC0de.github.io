@@ -28,7 +28,9 @@ Al pivotar de usuario nos damos cuenta que estamos en el grupo "Admin" y procede
 - ***Dificultad*** --> Facil
 - ***Hecho por*** --> dalemazza
 
+
 <br>
+
 
 Encontramos en el código fuente team.thm y nos los pasamos al `etc/hosts`
 ![image](https://user-images.githubusercontent.com/43649283/146434943-fc9cd78e-37d5-4f8d-96ec-0c57b3e1d157.png)
