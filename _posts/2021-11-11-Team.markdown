@@ -14,7 +14,9 @@ externalLink: false
 ---
 En esta máquina tocaremos un poco de virtual hosting que nos llevará a otra página diferente donde encontraremos diferentes directorios ocultos
 que nos llevará a un script escrito en bash donde hay credeciales expuestas que son válidas por FTP.<br>
+<br>
 Luego averiguamos que hay un subdominio oculto donde existe la vulnerabilidad Local File Inclusion. Al saber que hay LFI nos hacemos un pequeño script en bash para hacer fuzzing y encontrar una id_rsa.<br>
+<br>
 Ya dentro del sistema tendremos que pivotar a otro usuario mediante un script en bash.<br>
 Al pivotar de usuario nos damos cuenta que estamos en el grupo "Admin" y procedemos a buscar archivos que tengan de grupo "Admin". Y por ultimo editamos el archivo para ser root.
 
