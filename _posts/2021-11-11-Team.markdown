@@ -1,1 +1,26 @@
+---
+title: "TryHackMe | Team - Writeup (ESPAÑOL)"
+layout: post
+date: 2021-12-16 19:38
+tag: virtual hosting, LFI, ftp, passwords, ssh, dirsearch
+image: /assets/images/Team/team.png
+headerImage: true
+walkthroughs: true
+hidden: true
+description: "thm team español"
+category: walkthroughs
+author: userc0de
+externalLink: false
+---
+En esta máquina tocaremos un poco de virtual hosting que nos llevará a otra página diferente donde encontraremos diferentes directorios ocultos
+que nos llevará a un script escrito en bash donde hay credeciales expuestas que son válidas por FTP. Luego averiguamos que hay un subdominio oculto donde
+existe la vulnerabilidad Local File Inclusion. Al saber que hay LFI nos hacemos un pequeño script en bash para hacer fuzzing y encontrar una id_rsa.
+Ya dentro del sistema tendremos que pivotar a otro usuario mediante un script en bash. Al pivotar de usuario nos damos cuenta que estamos en el grupo "Admin"
+y procedemos a buscar archivos que tengan de grupo "Admin". Y por ultimo editamos el archivo para ser root.
 
+<h3 style="color: #a6d608;"><b>Información de la room</b>/h3>
+    - Título --> Team
+    - Descripción --> Beginner friendly boot2root machine
+    - Punto --> 60
+    - Dificultad --> Facil
+    - Hecho por --> dalemazza
