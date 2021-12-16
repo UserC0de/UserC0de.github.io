@@ -39,4 +39,6 @@ Encontramos en el código fuente team.thm y nos los pasamos al **/etc/hosts**
 Ya cambiado el /etc/hosts vemos una página distinta. ¿Buscamos directorios ocultos?
 ![image](https://user-images.githubusercontent.com/43649283/146435730-402dd8d3-fa49-431e-ab48-5cd2823ad72a.png)
 
+<br><br>
+**Ejecutamos dirsearch para la busqueda de posibles directorios o archivos ocultos y encontramos 3 archivos.**
 
