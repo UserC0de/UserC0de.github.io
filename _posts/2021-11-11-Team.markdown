@@ -45,8 +45,8 @@ Ya cambiado el /etc/hosts vemos una página distinta. ¿Buscamos directorios ocu
 ┌──(userc0de⏽kali)-[~/TryHackMe/Labs/Easy/Team]
 └─$ dirsearch -u team.thm -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
 
-  _|. _ _  _  _  _ _|_    v0.4.1                                                                                                                                            
- (_||| _) (/_(_|| (_| )                                                                                                                                                     
+  _|. _ _  _  _  _ _|_    v0.4.1                                                                                                                                   
+ (_||| _) (/_(_|| (_| )                                                                                                                                                                    
                                                                                                                                                                             
 Extensions: php, aspx, jsp, html, js | HTTP method: GET | Threads: 30 | Wordlist size: 220520
 
