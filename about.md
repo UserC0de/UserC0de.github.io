@@ -4,7 +4,7 @@ layout: page
 ---
 <!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
    <img class="selfie" src="https://cdn3.iconfinder.com/data/icons/developers-iconset/90/Developers_Colorai-04-256.png" alt="Image" style="width:200px;height:200px;" />
-<p> 👋 ¡Hola! Soy un estudiante, tengo 20 años y me encanta el campo de la ciberseguridad.
+<p> 👋 ¡Hola! Soy Userc0de, tengo 20 años y me encanta el campo de la ciberseguridad.
 	Me considero una persona proactiva y eficiente que disfruta aprendiendo y siempre está en constante mejora.
 	Cuento con una alta capacidad para aprender de manera autónoma pues casi todo mi aprendizaje fue gracias a internet, también soy una persona comprometida,  	dedicada, responsable y me gusta tanto el trabajo en equipo como en solitario si la situación lo requiere. </p>
 	
